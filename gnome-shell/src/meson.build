@@ -78,9 +78,9 @@ foreach src: theme_sources
       ';'.join([
         'output="$1/$(realpath --relative-to="'+ meson.current_source_dir() + '" $0)"',
         'mkdir -p "$(dirname "$output")"',
-        # Can't use proper regex ("s,\(\b\)url\(\s*(\),\1yaru-url-handler\2,g") as per
+        # Can't use proper regex ("s,\(\b\)url\(\s*(\),\1yarudave-url-handler\2,g") as per
         # https://github.com/mesonbuild/meson/issues/1564
-        'sed "s,[[:space:]]*url[[:space:]]*(, yaru_url_handler(,g;" "$0" > "$output"',
+        'sed "s,[[:space:]]*url[[:space:]]*(, yarudave_url_handler(,g;" "$0" > "$output"',
       ]),
       '@INPUT@',
       '@OUTDIR@',
@@ -104,22 +104,22 @@ foreach variant: variants
   install_dir = gnomeshell_theme_dir + variant_suffix
 
   accent_configuration = {
-    'yaru_dark_variant': is_dark ? 'true' : 'false',
-    'yaru_accent_color': is_custom_accent ? variant_base_name : 'default',
+    'yarudave_dark_variant': is_dark ? 'true' : 'false',
+    'yarudave_accent_color': is_custom_accent ? variant_base_name : 'default',
   }
 
   # Prepare colorable assets
-  shell_yaru_colors_defs_scss = configure_file(
+  shell_yarudave_colors_defs_scss = configure_file(
     configuration: accent_configuration + {
-      'yaru_theme_entry_point': yaru_colors_defs_scss
+      'yarudave_theme_entry_point': yarudave_colors_defs_scss
     },
     input: accent_colors_definitions_scss,
-    output: 'gnome-shell-yaru-colors-defs-@0@.scss'.format(variant),
+    output: 'gnome-shell-yarudave-colors-defs-@0@.scss'.format(variant),
   )
 
-  shell_yaru_colors_defs = custom_target(
-    'gnome-shell-yaru-color-definitions-@0@'.format(variant),
-    input: shell_yaru_colors_defs_scss,
+  shell_yarudave_colors_defs = custom_target(
+    'gnome-shell-yarudave-color-definitions-@0@'.format(variant),
+    input: shell_yarudave_colors_defs_scss,
     output: '@BASENAME@.css'.format(variant),
     command: [
       sassc, '-a', '@INPUT@', '@OUTPUT@',
@@ -128,7 +128,7 @@ foreach variant: variants
     ],
     depends: source_deps,
     depend_files: [
-      yaru_colors_defs_scss,
+      yarudave_colors_defs_scss,
       theme_sources,
     ]
   )
@@ -148,12 +148,12 @@ foreach variant: variants
       output: '@BASENAME@-@0@.svg'.format(variant),
       command: [
         colorize_dummy_svg,
-        shell_yaru_colors_defs,
+        shell_yarudave_colors_defs,
         '--input-file', '@INPUT@',
         '--output-folder', '@OUTDIR@',
         '--variant', variant,
       ],
-      depends: shell_yaru_colors_defs,
+      depends: shell_yarudave_colors_defs,
       install: install_theme_sources,
       install_dir: install_dir,
     )
@@ -186,7 +186,7 @@ foreach variant: variants
       output: '@0@.scss'.format(stylename),
       configuration: {
         'DarkVariant': is_dark ? 'true' : 'false',
-        'YaruVariant': variant,
+        'YarudaveVariant': variant,
         'UseGResource': gnomeshell_use_gresource ? 'true' : 'false',
         'HighContrast': high_contrast ? 'true' : 'false',
         'Colors': (high_contrast ? 'high-contrast-' : '') + 'colors',
@@ -200,7 +200,7 @@ foreach variant: variants
       theme_sources += theme_main_file
       theme_main_file = configure_file(
         configuration: accent_configuration + {
-          'yaru_theme_entry_point': meson.project_build_root() / '@0@'.format(theme_main_file),
+          'yarudave_theme_entry_point': meson.project_build_root() / '@0@'.format(theme_main_file),
         },
         input: accent_colors_definitions_scss,
         output: '@0@-accent-colors.scss'.format(stylename),
@@ -274,13 +274,13 @@ if gnomeshell_use_gresource
     preprocess = ''
     alias = filepath[0] == '/' ? '@0@'.format(gfile).split('/')[-1] : filepath
     if alias == 'gnome-shell@0@.css'.format(DEFAULT_GDM_VARIANT != '' ? '-' + DEFAULT_GDM_VARIANT : '')
-      # Use Yaru files for ubuntu's special gdm
+      # Use Yarudave files for ubuntu's special gdm
       theme_gresource_files_xml += '<file alias="gdm.css">@0@</file>'.format(gfile)
     endif
 
     if alias.endswith('.css') and filepath.contains(meson.current_build_dir())
       # This is kept for compatibility reasons, but we may drop it once shell is updated too
-      alias = 'Yaru' / alias
+      alias = 'Yarudave' / alias
     endif
 
     if alias.endswith('.svg')
@@ -296,7 +296,7 @@ if gnomeshell_use_gresource
       input: theme_gresource_xml,
       output: '@PLAINNAME@',
       configuration: {
-        'YARU_SHELL_THEME_RESOURCES': '\n    '.join(theme_gresource_files_xml),
+        'YARUdave_SHELL_THEME_RESOURCES': '\n    '.join(theme_gresource_files_xml),
       },
     ),
     dependencies: theme_gresource_deps,

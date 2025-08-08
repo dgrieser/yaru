@@ -1,6 +1,6 @@
 #!/bin/sh
 
-THEME=Yaru
+THEME=Yarudave
 DIR="../../.."
 
 # $@ is for the caller to be able to supply arguments to anicursorgen (-s, in particular)

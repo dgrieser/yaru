@@ -1,0 +1,23 @@
+# See https://bugs.launchpad.net/ubuntu/+source/yarudave-theme/+bug/1968405
+symlink_to_dir /usr/share/themes/Yarudave/gnome-shell ../../gnome-shell/theme/Yarudave 22.04.1
+
+dir_to_symlink /usr/share/themes/Yarudave-bark-dark/gnome-shell ../../gnome-shell/theme/Yarudave-bark-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-bark/gnome-shell ../../gnome-shell/theme/Yarudave-bark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-blue-dark/gnome-shell ../../gnome-shell/theme/Yarudave-blue-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-blue/gnome-shell ../../gnome-shell/theme/Yarudave-blue 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-dark/gnome-shell ../../gnome-shell/theme/Yarudave-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-magenta-dark/gnome-shell ../../gnome-shell/theme/Yarudave-magenta-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-magenta/gnome-shell ../../gnome-shell/theme/Yarudave-magenta 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-olive-dark/gnome-shell ../../gnome-shell/theme/Yarudave-olive-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-olive/gnome-shell ../../gnome-shell/theme/Yarudave-olive 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-prussiangreen-dark/gnome-shell ../../gnome-shell/theme/Yarudave-prussiangreen-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-prussiangreen/gnome-shell ../../gnome-shell/theme/Yarudave-prussiangreen 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-purple-dark/gnome-shell ../../gnome-shell/theme/Yarudave-purple-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-purple/gnome-shell ../../gnome-shell/theme/Yarudave-purple 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-red-dark/gnome-shell ../../gnome-shell/theme/Yarudave-red-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-red/gnome-shell ../../gnome-shell/theme/Yarudave-red 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-sage-dark/gnome-shell ../../gnome-shell/theme/Yarudave-sage-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-sage/gnome-shell ../../gnome-shell/theme/Yarudave-sage 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-viridian-dark/gnome-shell ../../gnome-shell/theme/Yarudave-viridian-dark 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave-viridian/gnome-shell ../../gnome-shell/theme/Yarudave-viridian 22.04.4~
+dir_to_symlink /usr/share/themes/Yarudave/gnome-shell ../../gnome-shell/theme/Yarudave 22.04.4~

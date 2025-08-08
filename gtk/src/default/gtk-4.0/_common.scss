@@ -8,10 +8,10 @@ $assets: if($contrast=='normal', 'assets', 'assets-hc');
 $backdrop_transition: 200ms ease-out;
 $button_transition: all 200ms $ease-out-quad;
 $focus_transition: outline-width 200ms $ease-out-quad, outline-offset 200ms $ease-out-quad;
-$button_radius: 6px; // Yaru change: sync radius with Gtk4
-$menu_radius: 6px; // Yaru change: ↑↑↑
-$window_radius: $button_radius + 6; // Yaru change: ↑↑↑
-$popover_radius: $window_radius; // Yaru change: ↑↑↑
+$button_radius: 6px; // Yarudave change: sync radius with Gtk4
+$menu_radius: 6px; // Yarudave change: ↑↑↑
+$window_radius: $button_radius + 6; // Yarudave change: ↑↑↑
+$popover_radius: $window_radius; // Yarudave change: ↑↑↑
 $menu_margin: $menu_radius; //margin around menuitems & sidebar items
 
 /***************
@@ -719,7 +719,7 @@ button {
   }
 
   // Suggested and Destructive Action buttons
-  @each $b_type, $b_color in (suggested-action, $suggested_bg_color), // Yaru change: use suggested bg color
+  @each $b_type, $b_color in (suggested-action, $suggested_bg_color), // Yarudave change: use suggested bg color
                              (destructive-action, $destructive_color) {
     &.#{$b_type} {
       @include button(normal, $b_color, white);
@@ -1504,7 +1504,7 @@ headerbar {
   border-color: $alt_borders_color;
   border-radius: 0;
 
-  @include headerbar_fill(if($variant == 'light', darken($bg_color, 6%), darken($bg_color, 10%))); // Yaru change: sync light headerbar bg color with Libadwaita (a bit lighten)
+  @include headerbar_fill(if($variant == 'light', darken($bg_color, 6%), darken($bg_color, 10%))); // Yarudave change: sync light headerbar bg color with Libadwaita (a bit lighten)
 
   &:backdrop {
     border-color: $backdrop_borders_color;
@@ -1535,7 +1535,7 @@ headerbar {
   button.toggle:checked {
 
     background: if($variant == 'light', image(darken($bg_color, 17%)), image(darken($bg_color, 9%)));
-    border-color: darken($borders_color, 6%); // Yaru change: with our button styling we do not want a stronger bottom border
+    border-color: darken($borders_color, 6%); // Yarudave change: with our button styling we do not want a stronger bottom border
     // border-top-color: darken($borders_color, 8%);
     &:backdrop {
       @include button(backdrop-active);
@@ -2126,10 +2126,10 @@ notebook {
       > tabs {
         margin-bottom: -2px;
         > tab {
-          &:hover { box-shadow: inset 0 -3px $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset 0 -3px $borders_color; } // Yarudave change: 4px underlines are too much
 
 
-          &:checked { box-shadow: inset 0 -3px $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset 0 -3px $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -2139,9 +2139,9 @@ notebook {
       > tabs {
         margin-top: -2px;
         > tab {
-          &:hover { box-shadow: inset 0 3px $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset 0 3px $borders_color; } // Yarudave change: 4px underlines are too much
 
-          &:checked { box-shadow: inset 0 3px $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset 0 3px $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -2151,9 +2151,9 @@ notebook {
       > tabs {
         margin-right: -2px;
         > tab {
-          &:hover { box-shadow: inset -3px 0 $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset -3px 0 $borders_color; } // Yarudave change: 4px underlines are too much
 
-          &:checked { box-shadow: inset -3px 0 $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset -3px 0 $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -2163,9 +2163,9 @@ notebook {
       > tabs {
         margin-left: -2px;
         > tab {
-          &:hover { box-shadow: inset 3px 0 $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset 3px 0 $borders_color; } // Yarudave change: 4px underlines are too much
 
-          &:checked { box-shadow: inset 3px 0 $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset 3px 0 $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -3584,8 +3584,8 @@ window.dialog.message { // Message Dialog styling
     background-image: none;
     background-color: $bg_color;
     border-style: none;
-    border-top-left-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
-    border-top-right-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
+    border-top-left-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
+    border-top-right-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
   }
 
   box.dialog-vbox.vertical {
@@ -3613,11 +3613,11 @@ window.dialog.message { // Message Dialog styling
 
       &:first-child{
         border-left-style: none;
-        border-bottom-left-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
+        border-bottom-left-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
       }
 
       &:last-child {
-        border-bottom-right-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
+        border-bottom-right-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
       }
     }
   }
@@ -3724,7 +3724,7 @@ stacksidebar {
       color: $fg_color;
     }
     &:selected:hover:dir(ltr), &:selected:hover:dir(rtl) {
-      background-color: if($variant == 'light', darken($menu_selected_color, 5%), lighten($menu_selected_color, 5%)); // Yaru change: use lighter color in dark theme (mimic Libadwaita)
+      background-color: if($variant == 'light', darken($menu_selected_color, 5%), lighten($menu_selected_color, 5%)); // Yarudave change: use lighter color in dark theme (mimic Libadwaita)
     }
     &.activatable:active, &.activatable:selected:active {
       box-shadow: none; // #3413
@@ -3755,7 +3755,7 @@ separator.sidebar {
     margin: 0 $menu-margin 2px;
     @include focus-ring($focus-state: 'focus-visible:focus-within');
     &:hover {
-      background-color: if($variant == 'light', darken($menu_selected_color, 5%), lighten($menu_selected_color, 5%)); // Yaru change: use lighter color in dark theme (mimic Libadwaita)
+      background-color: if($variant == 'light', darken($menu_selected_color, 5%), lighten($menu_selected_color, 5%)); // Yarudave change: use lighter color in dark theme (mimic Libadwaita)
     }
 
     &:selected {
@@ -3768,7 +3768,7 @@ separator.sidebar {
 
 
       &:hover {
-        background-color: if($variant == 'light', darken($menu_selected_color, 5%), lighten($menu_selected_color, 5%)); // Yaru change: use lighter color in dark theme (mimic Libadwaita)
+        background-color: if($variant == 'light', darken($menu_selected_color, 5%), lighten($menu_selected_color, 5%)); // Yarudave change: use lighter color in dark theme (mimic Libadwaita)
       }
 
     }

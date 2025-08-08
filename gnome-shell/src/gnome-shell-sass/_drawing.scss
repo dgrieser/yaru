@@ -155,7 +155,7 @@
 
 // Button drawing function
 @mixin button($type, $tc:$fg_color, $c:$bg_color, $style: null, $always_dark: false, $bg: null, $brightness: null) {
-  // Yaru change: allow forced bg-color, add brightness parameter)
+  // Yarudave change: allow forced bg-color, add brightness parameter)
   //
   // $type:         button type, possible values:
   //                  - normal, focus, hover, active, checked, insensitive, default, undecorated
@@ -167,8 +167,8 @@
 
   // mix input colors to get button background color
   $button_bg_color: mix($tc, $c, $background_mix_factor);
-  $variant: if($brightness ==null, $variant, $brightness); // Yaru change: add forced brightness support
-  $button_bg_color: if($bg != null, $bg, mix($tc, $c, $background_mix_factor)); // Yaru change: allow forced
+  $variant: if($brightness ==null, $variant, $brightness); // Yarudave change: add forced brightness support
+  $button_bg_color: if($bg != null, $bg, mix($tc, $c, $background_mix_factor)); // Yarudave change: allow forced
 
   // background color override for card elements
   @if $style == 'card' { $button_bg_color: $card_bg_color;}
@@ -220,7 +220,7 @@
     $active_button_bg_color: transparentize($tc, .84);
     $active_hover_button_bg_color: transparentize($tc, .81);
 
-    // Yaru: fix insensitive background in light themes.
+    // Yarudave: fix insensitive background in light themes.
     $insensitive_button_bg_color: transparentize($tc, .83);
   }
 

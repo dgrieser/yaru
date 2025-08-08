@@ -6,7 +6,7 @@ inside the build directory (you'll need to have sassc installed).
 
 ## How to tweak the theme
 
-Yaru is a complex theme, so to keep it maintainable it's written and
+Yarudave is a complex theme, so to keep it maintainable it's written and
 processed in SASS, the generated CSS is then transformed into a gresource
 file during gtk build and used at runtime in a non-legible or editable form.
 
@@ -20,7 +20,7 @@ for a drive by stylesheet fix:
 | [_colors.scss][colors]   | global color definitions. We keep the number of defined colors to a necessary minimum,  most colors are derived from a handful of basics. It is an exact copy of the gtk+ counterpart. Light theme is used for the classic theme and dark is for GNOME3 shell default. |
 | [_drawing.scss][drawing] | drawing helper mixings/functions to allow easier definition of widget drawing under specific context. This is why Adwaita isn't 15000 LOC. |
 | [_common.scss][common]   | actual definitions of style for each applet. This is synced with upstream and left as is for cleaner build. |
-| [_tweaks.scss][tweaks]   | Any definition of style specific to yaru are to be included here and overrides upstream. |
+| [_tweaks.scss][tweaks]   | Any definition of style specific to yarudave are to be included here and overrides upstream. |
 
 You can read about SASS on its [web page][sass-web]. Once you make your
 changes to the [_common.scss][common] file, you can run ninja to generate the

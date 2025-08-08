@@ -24,7 +24,7 @@ It's also possible to render a specific flavor by using:
 There's a few provided templates that make creating a new icon simple (as an alternative to deriving an icon from one of the pre-existing icons).
 
 **[Horizontal Oblong App Icon Template.svg](./Horizontal%20Oblong%20App%20Icon%20Template.svg) - an app icon template for oblong icons with landscape orientation**
- - a blank template file for Yaru application icons
+ - a blank template file for Yarudave application icons
  - the only layers that need modifying are the "Baseplate" layer (to name and categorise the icon), the "Background" layer (to change the color of the icon) and the "Pictogram" layer (where you add the icon's distinct overall pictogram)
  - if your icon is "white" ( = a very light grey gradient), you can make the "optional outline for white icons" layer visible, to add a faint outline to the 256px icon (nothing is added to the smaller icons because they already have borders)
  - You can also edit the opacity of the highlights layer, because you will probably want to make it more transparent to reduce the highlight when using a darker background
@@ -39,9 +39,9 @@ There's a few provided templates that make creating a new icon simple (as an alt
  - same principles as above
 
 **[Blank Template.svg](./Blank%20Template.svg) - a blank icon template**
- - a completely blank template file for the fullcolor Yaru icons (every icon follows this template)
+ - a completely blank template file for the fullcolor Yarudave icons (every icon follows this template)
  
 **[Blank Mimetype Template.svg](./Blank%20Mimetype%20Template.svg) - a blank mimetype icon template**
- - a completely blank template file for the fullcolor Yaru mimetype icons
+ - a completely blank template file for the fullcolor Yarudave mimetype icons
 
 All templates have a "Baseplate" layer which contain the necessary metadata for rendering an icon: the icon's **context** (such as "apps" or "status", etc.) and **icon-name** (the asset filename). This layer must also be hidden or it will appear in your render.

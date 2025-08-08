@@ -286,7 +286,7 @@ $_gdm_dialog_width: 25em;
   .login-dialog-prompt-entry {
     @extend %lockscreen_entry;
     &:focus {
-      // Yaru change: remove focus border
+      // Yarudave change: remove focus border
       box-shadow: none !important;
     }
   }
@@ -425,14 +425,14 @@ $_gdm_dialog_width: 25em;
 
         & StIcon {
           padding: $base_padding * 4;
-          color: $_gdm_fg; // Yaru change: dark/light theme support
+          color: $_gdm_fg; // Yarudave change: dark/light theme support
         }
       }
     }
   }
 }
 
-// Yaru change: style login dialog entry in dark theme
+// Yarudave change: style login dialog entry in dark theme
 @if $variant=='dark' {
   login-dialog {
     StEntry {
@@ -443,7 +443,7 @@ $_gdm_dialog_width: 25em;
   }
 }
 
-// Yaru change: style unlock dialog with half-transparent items
+// Yarudave change: style unlock dialog with half-transparent items
 .unlock-dialog {
   StEntry {
     border:none !important;

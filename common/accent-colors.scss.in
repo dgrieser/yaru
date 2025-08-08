@@ -29,20 +29,20 @@
     @return $color;
 }
 
-$yaru_is_dark_variant: @yaru_dark_variant@;
+$yarudave_is_dark_variant: @yarudave_dark_variant@;
 $jet: #181818;
-$yaru_bg_color: if($yaru_is_dark_variant, #FAFAFA, lighten($jet, 8%));
-$yaru_accent_bg_color: get_accent_color('@yaru_accent_color@', $yaru_is_dark_variant);
+$yarudave_bg_color: if($yarudave_is_dark_variant, #FAFAFA, lighten($jet, 8%));
+$yarudave_accent_bg_color: get_accent_color('@yarudave_accent_color@', $yarudave_is_dark_variant);
 
-$contrast_target: if($yaru_is_dark_variant, 4.5, 4.8);
-$yaru_accent_color: optimize-contrast($yaru_bg_color,
-    $yaru_accent_bg_color, $target: $contrast_target);
+$contrast_target: if($yarudave_is_dark_variant, 4.5, 4.8);
+$yarudave_accent_color: optimize-contrast($yarudave_bg_color,
+    $yarudave_accent_bg_color, $target: $contrast_target);
 
-@debug("Accent color is " + $yaru_accent_bg_color);
-@debug("Contrast optimized accent is " + $yaru_accent_color);
+@debug("Accent color is " + $yarudave_accent_bg_color);
+@debug("Contrast optimized accent is " + $yarudave_accent_color);
 
-$accent_bg_color: $yaru_accent_bg_color;
+$accent_bg_color: $yarudave_accent_bg_color;
 $accent_fg_color: white;
-$accent_color: $yaru_accent_color;
+$accent_color: $yarudave_accent_color;
 
-@import '@yaru_theme_entry_point@'
+@import '@yarudave_theme_entry_point@'

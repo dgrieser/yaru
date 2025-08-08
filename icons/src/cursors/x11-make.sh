@@ -1,6 +1,6 @@
 #!/bin/sh
 
-THEME=Yaru
+THEME=Yarudave
 DIR="../../.."
 
 # enter bitmaps folder

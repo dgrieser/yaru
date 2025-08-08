@@ -23,7 +23,7 @@ $window_close_button_color: transparentize(lighten($system_bg_color, 7%), .02);
   width: $large_icon_size;
   transition-duration: 100ms;
   border: 2px solid transparent;
-  border: 1px solid $system_borders_color; // Yaru: add border
+  border: 1px solid $system_borders_color; // Yarudave: add border
 
   @if $contrast == 'high' {
     border-color: $hc_inset_color;

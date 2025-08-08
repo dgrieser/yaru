@@ -6,7 +6,7 @@
     <property name="dark-variant">@ThemeName@-dark</property>
   </metadata>
 
-  <!-- Yaru palette -->
+  <!-- Yarudave palette -->
   <color name="blue_1"                     value="#75d3f4"/>
   <color name="blue_2"                     value="#47c4f1"/>
   <color name="blue_3"                     value="#19B6EE"/>

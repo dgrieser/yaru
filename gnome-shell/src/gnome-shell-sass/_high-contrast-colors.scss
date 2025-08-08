@@ -5,7 +5,7 @@
 
 @import '_palette.scss';
 
-// Yaru change: hard include gnome palette because include and symlink doesn't work with Github CI
+// Yarudave change: hard include gnome palette because include and symlink doesn't work with Github CI
 //GNOME Color Palette
 $blue_1: #99c1f1;
 $blue_2: #62a0ea;
@@ -129,7 +129,7 @@ $hc_mix_color: $light_1;
 // the mix factor used to boost contrast of a color in the above mixin
 $hc_mix_factor: 87%;
 
-// Yaru, Add accent also in high-contrast, but with higher contrast ratio.
+// Yarudave, Add accent also in high-contrast, but with higher contrast ratio.
 @import 'sass-utils';
 
 $accent_bg_color: optimize-contrast($base_color,
@@ -141,6 +141,6 @@ $selected_bg_color: $accent_bg_color;
 $fg_color_dark: $porcelain;
 $bg_color_dark: lighten($jet, 2%);
 
-// Yaru custom definitions
-@import '_yaru-default-colors';
-@import '_yaru-colors.scss';
+// Yarudave custom definitions
+@import '_yarudave-default-colors';
+@import '_yarudave-colors.scss';

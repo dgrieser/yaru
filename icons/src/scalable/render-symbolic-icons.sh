@@ -6,8 +6,8 @@
 ## options:
 ##     -a, --all                Optimize ALL the icons in icons/src/<variant> [default:0]
 ##     -v, --variant <name>     Optimize the icons in icons/src/<variant> [default:default]
-##     -c, --context <name>     Optimize ALL the icons in icons/src/<variant>/<context> and save them under icons/Yaru/<context>
-##     -f, --file <name>        Optimize only the icon in icons/src/<variant>/<context>/<path> and save it under icons/Yaru/<context>/<name> (needs --context)
+##     -c, --context <name>     Optimize ALL the icons in icons/src/<variant>/<context> and save them under icons/Yarudave/<context>
+##     -f, --file <name>        Optimize only the icon in icons/src/<variant>/<context>/<path> and save it under icons/Yarudave/<context>/<name> (needs --context)
 ##
 ## NOTE:
 ## contexts are: actions, apps, camera, categories, devices, emblems, emotes, generic-symbols, legacy, mimetypes, multimedia, phosh, places, status, time, ui.
@@ -69,10 +69,10 @@ contexts=( actions apps camera categories devices emblems emotes generic-symbols
 # CHECKS
 ###################################################
 
-# current workding directory expected to be yaru/icons/src/scalable
+# current workding directory expected to be yarudave/icons/src/scalable
 CWD=$(pwd)
 if [[ ! ${CWD} =~ "icons/src/scalable" ]]; then
-  fatal "unexpected working directory ${CWD}. Please execute the script under yaru/icons/src/scalable folder."
+  fatal "unexpected working directory ${CWD}. Please execute the script under yarudave/icons/src/scalable folder."
 fi
 info "working directory OK."
 
@@ -99,8 +99,8 @@ optimize() {
   INPUT=${VARIANT}/${GROUP}/${NAME}
   [[ ! -f ${INPUT} ]] && fatal "could not find input file: ${INPUT}"
 
-  OUTDIR=../../Yaru${SUFFIX}/scalable/${GROUP}/
-  OUTPUT=../../Yaru${SUFFIX}/scalable/${GROUP}/${NAME}
+  OUTDIR=../../Yarudave${SUFFIX}/scalable/${GROUP}/
+  OUTPUT=../../Yarudave${SUFFIX}/scalable/${GROUP}/${NAME}
   [[ ! -d ${OUTDIR} ]] && fatal "could not find output directory: ${OUTDIR}"
 
   cmd="scour -i ${INPUT} -o ${OUTPUT} --enable-viewboxing --create-groups --shorten-ids --enable-id-stripping --enable-comment-stripping --disable-embed-rasters --remove-metadata --strip-xml-prolog"

@@ -2,7 +2,7 @@
 <style-scheme id="@FlavourThemeName@" _name="@FlavourThemeName@" version="1.0">
   <_description>A GtkSourceView style to match @FlavourThemeName@</_description>
 
-  <!-- Yaru palette -->
+  <!-- Yarudave palette -->
   <color name="blue_1"                     value="#75d3f4"/>
   <color name="blue_2"                     value="#47c4f1"/>
   <color name="blue_3"                     value="#19B6EE"/>

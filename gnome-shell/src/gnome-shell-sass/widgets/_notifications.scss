@@ -10,23 +10,23 @@ $notification_banner_width: 34em;
   box-shadow: 0 2px 4px 2px $shadow_color;
   border-radius: $modal_radius;
   margin: $base_margin;
-  background-color: $bg_color; // Yaru change: use bg_color for better contrast with buttons
+  background-color: $bg_color; // Yarudave change: use bg_color for better contrast with buttons
 
   @if $contrast == 'high' {
     @include draw_hc_inset();
   }
 
   &:hover {
-    // Yaru change: ↑↑↑
+    // Yarudave change: ↑↑↑
     background-color: if($variant =='light', darken($bg_color, 2%), lighten($bg_color, 2%));
   }
 
   &:active {
-    // Yaru change: ↑↑↑
+    // Yarudave change: ↑↑↑
     background-color: if($variant =='light', darken($bg_color, 4%), lighten($bg_color, 4%));
   }
 
-  // Yaru: make notifications more visible on different headerbars:
+  // Yarudave: make notifications more visible on different headerbars:
   &,
   &:hover,
   &:focus,

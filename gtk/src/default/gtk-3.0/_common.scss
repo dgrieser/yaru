@@ -6,10 +6,10 @@ $ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 $asset_suffix: if($variant=='dark', '-dark', '');
 $backdrop_transition: 200ms ease-out;
 $button_transition: all 200ms $ease-out-quad;
-$button_radius: 6px; // Yaru change: sync radius with Gtk4
-$menu_radius: 6px; // Yaru change: ↑↑↑
-$window_radius: $button_radius + 6; // Yaru change: ↑↑↑
-$popover_radius: $window_radius; // Yaru change: ↑↑↑
+$button_radius: 6px; // Yarudave change: sync radius with Gtk4
+$menu_radius: 6px; // Yarudave change: ↑↑↑
+$window_radius: $button_radius + 6; // Yarudave change: ↑↑↑
+$popover_radius: $window_radius; // Yarudave change: ↑↑↑
 
 // Optional compact sizes for buttons, headerbar and headerbar widgets
 $_sizevariant: 'default'; //compact otherwise
@@ -1578,7 +1578,7 @@ headerbar {
   border-color: $alt_borders_color;
   border-radius: 0;
 
-  @include headerbar_fill(if($variant == 'light', darken($bg_color, 6%), darken($bg_color, 10%))); // Yaru change: sync light headerbar bg color with Gtk4 (a bit lighten)
+  @include headerbar_fill(if($variant == 'light', darken($bg_color, 6%), darken($bg_color, 10%))); // Yarudave change: sync light headerbar bg color with Gtk4 (a bit lighten)
 
   &:backdrop {
     border-color: $backdrop_borders_color;
@@ -1608,7 +1608,7 @@ headerbar {
   button.toggle:checked {
 
     background: if($variant == 'light', image(darken($bg_color, 17%)), image(darken($bg_color, 9%)));
-    border-color: darken($borders_color, 6%); // Yaru change: with our button styling we do not want a stronger bottom border
+    border-color: darken($borders_color, 6%); // Yarudave change: with our button styling we do not want a stronger bottom border
     // border-top-color: darken($borders_color, 8%);
     &:backdrop {
       @include button(backdrop-active);
@@ -1836,14 +1836,14 @@ headerbar {
 headerbar { // headerbar border rounding
 
   window separator:first-child + &,
-  window &:first-child { &:backdrop, & { border-top-left-radius: $window_radius + 1px; }} // Yaru change: sync window radius with Gtk4
-  window &:last-child { &:backdrop, & { border-top-right-radius: $window_radius + 1px; }} // Yaru change: sync window radius with Gtk4
+  window &:first-child { &:backdrop, & { border-top-left-radius: $window_radius + 1px; }} // Yarudave change: sync window radius with Gtk4
+  window &:last-child { &:backdrop, & { border-top-right-radius: $window_radius + 1px; }} // Yarudave change: sync window radius with Gtk4
 
   window stack & { // tackles the stacked headerbars case
     &:first-child, &:last-child {
       &:backdrop, & {
-        border-top-left-radius: $window_radius + 1px; // Yaru change: sync window radius with Gtk4
-        border-top-right-radius: $window_radius + 1px; // Yaru change: sync window radius with Gtk4
+        border-top-left-radius: $window_radius + 1px; // Yarudave change: sync window radius with Gtk4
+        border-top-right-radius: $window_radius + 1px; // Yarudave change: sync window radius with Gtk4
       }
     }
   }
@@ -2385,11 +2385,11 @@ notebook {
       > tabs {
         margin-bottom: -2px;
         > tab {
-          &:hover { box-shadow: inset 0 -3px $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset 0 -3px $borders_color; } // Yarudave change: 4px underlines are too much
 
           &:backdrop { box-shadow: none; }
 
-          &:checked { box-shadow: inset 0 -3px $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset 0 -3px $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -2399,11 +2399,11 @@ notebook {
       > tabs {
         margin-top: -2px;
         > tab {
-          &:hover { box-shadow: inset 0 3px $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset 0 3px $borders_color; } // Yarudave change: 4px underlines are too much
 
           &:backdrop { box-shadow: none; }
 
-          &:checked { box-shadow: inset 0 3px $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset 0 3px $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -2413,11 +2413,11 @@ notebook {
       > tabs {
         margin-right: -2px;
         > tab {
-          &:hover { box-shadow: inset -3px 0 $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset -3px 0 $borders_color; } // Yarudave change: 4px underlines are too much
 
           &:backdrop { box-shadow: none; }
 
-          &:checked { box-shadow: inset -3px 0 $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset -3px 0 $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -2427,11 +2427,11 @@ notebook {
       > tabs {
         margin-left: -2px;
         > tab {
-          &:hover { box-shadow: inset 3px 0 $borders_color; } // Yaru change: 4px underlines are too much
+          &:hover { box-shadow: inset 3px 0 $borders_color; } // Yarudave change: 4px underlines are too much
 
           &:backdrop { box-shadow: none; }
 
-          &:checked { box-shadow: inset 3px 0 $selected_bg_color; } // Yaru change: 4px underlines are too much
+          &:checked { box-shadow: inset 3px 0 $selected_bg_color; } // Yarudave change: 4px underlines are too much
         }
       }
     }
@@ -3970,8 +3970,8 @@ messagedialog { // Message Dialog styling
     background-image: none;
     background-color: $bg_color;
     border-style: none;
-    border-top-left-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
-    border-top-right-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
+    border-top-left-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
+    border-top-right-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
   }
 
   &.csd { // rounded bottom border styling for csd version
@@ -3990,13 +3990,13 @@ messagedialog { // Message Dialog styling
 
       &:first-child {
         border-left-style: none;
-        border-bottom-left-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
-        -gtk-outline-bottom-left-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
+        border-bottom-left-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
+        -gtk-outline-bottom-left-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
       }
 
       &:last-child {
-        border-bottom-right-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
-        -gtk-outline-bottom-right-radius: $window_radius+1; // Yaru change: sync radii with Gtk4
+        border-bottom-right-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
+        -gtk-outline-bottom-right-radius: $window_radius+1; // Yarudave change: sync radii with Gtk4
       }
     }
   }

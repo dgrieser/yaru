@@ -2,11 +2,11 @@
 #
 # Legal Stuff:
 #
-# This file is part of the Yaru Icon Theme and is free software; you can redistribute it and/or modify it under
+# This file is part of the Yarudave Icon Theme and is free software; you can redistribute it and/or modify it under
 # the terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; version 3.
 #
-# This file is part of the Yaru Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
+# This file is part of the Yarudave Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
 # ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 # FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
 # details.
@@ -312,8 +312,8 @@ for source in SOURCES:
         continue
 
     SRC = os.path.join(source_path, args.variant, source)
-    DEST = os.path.abspath(os.path.join(dest_path, "Yaru" if args.variant ==
-                                        'default' else "Yaru-" + args.variant))
+    DEST = os.path.abspath(os.path.join(dest_path, "Yarudave" if args.variant ==
+                                        'default' else "Yarudave-" + args.variant))
     if os.path.exists(SRC):
         rendered_icons += main(args, SRC, DEST)
 

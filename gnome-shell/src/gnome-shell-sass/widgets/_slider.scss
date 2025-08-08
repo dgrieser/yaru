@@ -1,7 +1,7 @@
 /* Slider */
 
 $slider_size: $scalable_icon_size;
-$slider_size: to_em(18px);; // Yaru change: larger slider cause to border in light theme
+$slider_size: to_em(18px);; // Yarudave change: larger slider cause to border in light theme
 
 .slider {
   // slider trough
@@ -10,7 +10,7 @@ $slider_size: to_em(18px);; // Yaru change: larger slider cause to border in lig
   -barlevel-border-width: 2px;
   -barlevel-border-color: transparent; // trough border color
   // fill style
-  -barlevel-active-background-color: $progress_bg_color; // Yaru change: we detached progress from selected
+  -barlevel-active-background-color: $progress_bg_color; // Yarudave change: we detached progress from selected
   -barlevel-active-border-color: transparent;
   // overfill style (red in this case)
   -barlevel-overdrive-color: $destructive_color;
@@ -19,12 +19,12 @@ $slider_size: to_em(18px);; // Yaru change: larger slider cause to border in lig
   // slider handler
   // -slider-handle-border-width: 0;
   // -slider-handle-border-color: transparent; // because 0 width
-  -slider-handle-border-width: 1px; // Yaru change: add border
-  -slider-handle-border-color: if($variant=='light', darken($alt_borders_color, 3%), transparent); // because 0 width - Yaru change: the handle border needs to be darker for the light theme
+  -slider-handle-border-width: 1px; // Yarudave change: add border
+  -slider-handle-border-color: if($variant=='light', darken($alt_borders_color, 3%), transparent); // because 0 width - Yarudave change: the handle border needs to be darker for the light theme
   -slider-handle-radius: $slider_size * 0.5; // half the size of the size
 
-  color: darken(white, 1%); // Yaru change: adapt knob to gtk
-  height: $slider_size + to_em(2px); // Yaru change: increase height due to border
+  color: darken(white, 1%); // Yarudave change: adapt knob to gtk
+  height: $slider_size + to_em(2px); // Yarudave change: increase height due to border
 
     // hc style
     @if $contrast == 'high' {

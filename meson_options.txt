@@ -12,14 +12,14 @@ option('sounds', type: 'boolean', value: true, description:'build sounds compone
 option('sessions', type: 'boolean', value: true, description:'build sessions component')
 option('cinnamon-shell', type: 'boolean', value: false, description:'build cinnamon component')
 
-option('default', type: 'boolean', value: true, description:'build Yaru default flavour')
-option('dark', type: 'boolean', value: true, description:'build Yaru dark flavour')
-option('mate', type: 'boolean', value: false, description:'build Yaru mate flavour')
-option('mate-dark', type: 'boolean', value: false, description:'build Yaru mate-dark flavour')
-option('ubuntu-unity', type: 'boolean', value: false, description:'build Yaru with Unity assets')
-option('xfwm4', type: 'boolean', value: false, description:'build Yaru with xfwm4 assets')
-option('cinnamon', type: 'boolean', value: false, description:'build Yaru with Cinnamon flavour')
-option('cinnamon-dark', type: 'boolean', value: false, description:'build Yaru with Cinnamon dark flavour')
+option('default', type: 'boolean', value: true, description:'build Yarudave default flavour')
+option('dark', type: 'boolean', value: true, description:'build Yarudave dark flavour')
+option('mate', type: 'boolean', value: false, description:'build Yarudave mate flavour')
+option('mate-dark', type: 'boolean', value: false, description:'build Yarudave mate-dark flavour')
+option('ubuntu-unity', type: 'boolean', value: false, description:'build Yarudave with Unity assets')
+option('xfwm4', type: 'boolean', value: false, description:'build Yarudave with xfwm4 assets')
+option('cinnamon', type: 'boolean', value: false, description:'build Yarudave with Cinnamon flavour')
+option('cinnamon-dark', type: 'boolean', value: false, description:'build Yarudave with Cinnamon dark flavour')
 
 # We use the dark flat above to do the dark variants of them
 option('accent-colors',

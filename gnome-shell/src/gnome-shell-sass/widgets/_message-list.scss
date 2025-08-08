@@ -14,7 +14,7 @@
     @extend %title_2;
 
     color: transparentize($fg_color, .75);
-    // Yaru change: better contrast
+    // Yarudave change: better contrast
     color: $insensitive_fg_color;
 
     @if $contrast == 'high' {
@@ -60,7 +60,7 @@
     border-style: solid;
 
     &:focus {
-      border-color: $focus_border_color; // Yaru: we detached focus from selected
+      border-color: $focus_border_color; // Yarudave: we detached focus from selected
     }
   }
 }
@@ -199,7 +199,7 @@
   }
 
   &:active {
-    // background-color: $active_bg_color; // Yaru: make play/pause/next buttons active visible
+    // background-color: $active_bg_color; // Yarudave: make play/pause/next buttons active visible
     background-color: lighten($active_bg_color, 5%);
     color: $fg_color;
   }

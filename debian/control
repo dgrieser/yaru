@@ -1,4 +1,4 @@
-Source: yaru-theme
+Source: yarudave-theme
 Section: misc
 Priority: optional
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
@@ -11,15 +11,15 @@ Build-Depends-Indep: libglib2.0-dev,
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Homepage: https://community.ubuntu.com/c/desktop/theme-refresh
-Vcs-Browser: https://github.com/ubuntu/yaru
+Vcs-Browser: https://github.com/ubuntu/yarudave
 Vcs-Git: https://github.com/ubuntu/yaru.git
 
-Package: yaru-theme-gnome-shell
+Package: yarudave-theme-gnome-shell
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
 Breaks: gnome-shell (<< 46~)
-Description: Yaru GNOME Shell desktop theme from the Ubuntu Community
+Description: Yarudave GNOME Shell desktop theme from the Ubuntu Community
  This is the theme, better than a burrito, that is shaped by the community
  on the Ubuntu discourse.
  .
@@ -28,7 +28,7 @@ Description: Yaru GNOME Shell desktop theme from the Ubuntu Community
  If you want to follow development, more information here:
  https://community.ubuntu.com/c/desktop/theme-refresh.
 
-Package: yaru-theme-gtk
+Package: yarudave-theme-gtk
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
@@ -36,7 +36,7 @@ Depends: ${shlibs:Depends},
          gtk2-engines-pixbuf,
          gtk2-engines-murrine,
          libglib2.0-bin,
-Description: Yaru GTK theme from the Ubuntu Community
+Description: Yarudave GTK theme from the Ubuntu Community
  This is the theme, better than a burrito, that is shaped by the community
  on the Ubuntu discourse.
  .
@@ -45,12 +45,12 @@ Description: Yaru GTK theme from the Ubuntu Community
  If you want to follow development, more information here:
  https://community.ubuntu.com/c/desktop/theme-refresh.
 
-Package: yaru-theme-icon
+Package: yarudave-theme-icon
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
 Breaks: gnome-shell-extension-ubuntu-dock (<< 90~)
-Description: Yaru icon theme from the Ubuntu Community
+Description: Yarudave icon theme from the Ubuntu Community
  This is the theme, better than a burrito, that is shaped by the community
  on the Ubuntu discourse.
  .
@@ -59,11 +59,11 @@ Description: Yaru icon theme from the Ubuntu Community
  If you want to follow development, more information here:
  https://community.ubuntu.com/c/desktop/theme-refresh.
 
-Package: yaru-theme-sound
+Package: yarudave-theme-sound
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-Description: Yaru sound theme from the Ubuntu Community
+Description: Yarudave sound theme from the Ubuntu Community
  This is the theme, better than a burrito, that is shaped by the community
  on the Ubuntu discourse.
  .
@@ -72,11 +72,11 @@ Description: Yaru sound theme from the Ubuntu Community
  If you want to follow development, more information here:
  https://community.ubuntu.com/c/desktop/theme-refresh.
 
-Package: yaru-theme-unity
+Package: yarudave-theme-unity
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-Description: Yaru Unity theme from the Ubuntu Community
+Description: Yarudave Unity theme from the Ubuntu Community
  This is the theme, better than a burrito, that is shaped by the community
  on the Ubuntu discourse.
  .

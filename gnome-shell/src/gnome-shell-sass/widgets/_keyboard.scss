@@ -6,13 +6,13 @@ $key_bg_color:  darken($osd_fg_color, 70%);
 // $default_key_bg_color: darken($key_bg_color, 4%);
 $default_key_bg_color: if($variant=='light', darken($key_bg_color, 11%), darken($key_bg_color, 10%));
 
-$key_bg_color: if(variant=='light', $bg_color, darken($bg_color, 1%)); // Yaru: Make keyboard buttons work on both variants
-$default_key_bg_color: $key_bg_color; // Yaru: Make keyboard buttons work on both variants
+$key_bg_color: if(variant=='light', $bg_color, darken($bg_color, 1%)); // Yarudave: Make keyboard buttons work on both variants
+$default_key_bg_color: $key_bg_color; // Yarudave: Make keyboard buttons work on both variants
 // $default_key_bg_color: if($variant=='light', darken($osd_bg_color, 11%), lighten($osd_bg_color, 2%));
 
 
 // draw keys using button function
-#keyboard { // Yaru change: Make keyboard work on both variants
+#keyboard { // Yarudave change: Make keyboard work on both variants
   background-color: transparentize(if($variant=='light', darken($bg_color, 5%), darken($bg_color, 15%)), 0.1);
   // background-color: $osd_bg_color;
   // box-shadow: inset 0 1px 0 0 $osd_outer_borders_color;
@@ -44,25 +44,25 @@ $default_key_bg_color: $key_bg_color; // Yaru: Make keyboard buttons work on bot
   border-radius: $key_border_radius;
   box-shadow: 0 1px 0 0 $shadow_color;
 
-  @include button(normal, $c:$key_bg_color, $tc:$fg_color); // Yaru: Support both variants
+  @include button(normal, $c:$key_bg_color, $tc:$fg_color); // Yarudave: Support both variants
 
   &:focus { @include button(focus);}
-  &:hover { @include button(hover, $c:$key_bg_color, $tc:$fg_color);} // Yaru: Support both variants
-  &:active { @include button(active, $c:$key_bg_color, $tc:$fg_color); } // Yaru: Support both variants
-  &:checked { @include button(checked, $c:$key_bg_color, $tc:$fg_color); } // Yaru: Support both variants
+  &:hover { @include button(hover, $c:$key_bg_color, $tc:$fg_color);} // Yarudave: Support both variants
+  &:active { @include button(active, $c:$key_bg_color, $tc:$fg_color); } // Yarudave: Support both variants
+  &:checked { @include button(checked, $c:$key_bg_color, $tc:$fg_color); } // Yarudave: Support both variants
 
   &:grayed { //FIXMEy
     background-color: darken($bg_color, 3%);
-    color: $fg_color; // Yaru change: ↑↑↑
+    color: $fg_color; // Yarudave change: ↑↑↑
     border-color: $osd_borders_color;
   }
 
   // non-character keys
   &.default-key {
-    @include button(normal, $c:$default_key_bg_color, $tc:$fg_color); // Yaru: Support both variants
-    &:hover { @include button(hover, $c:$default_key_bg_color, $tc:$fg_color);} // Yaru: Support both variants
-    &:active { @include button(active, $c:$default_key_bg_color, $tc:$fg_color);} // Yaru: Support both variants
-    &:checked { @include button(checked, $c:$default_key_bg_color, $tc:$fg_color);} // Yaru: Support both variants
+    @include button(normal, $c:$default_key_bg_color, $tc:$fg_color); // Yarudave: Support both variants
+    &:hover { @include button(hover, $c:$default_key_bg_color, $tc:$fg_color);} // Yarudave: Support both variants
+    &:active { @include button(active, $c:$default_key_bg_color, $tc:$fg_color);} // Yarudave: Support both variants
+    &:checked { @include button(checked, $c:$default_key_bg_color, $tc:$fg_color);} // Yarudave: Support both variants
     border-radius: $key_border_radius;
 
     // keys that may be latched: ctrl/alt/shift
@@ -74,7 +74,7 @@ $default_key_bg_color: $key_bg_color; // Yaru: Make keyboard buttons work on bot
 
   // enter key is suggested-action
   &.enter-key {
-    // Yaru: use our suggested action color
+    // Yarudave: use our suggested action color
     @include button(normal, $c:$suggested_bg_color, $tc:$selected_fg_color);
     &:hover { @include button(hover, $c:$suggested_bg_color, $tc:$selected_fg_color);}
     &:active { @include button(active, $c:$suggested_bg_color, $tc:$selected_fg_color);}
@@ -87,11 +87,11 @@ $default_key_bg_color: $key_bg_color; // Yaru: Make keyboard buttons work on bot
 
   // pressed shift has different style
   &.shift-key-uppercase {
-    background-color: if($variant=="light", darken($key_bg_color, 10%), lighten($key_bg_color, 20%)); // Yaru change: ↑↑↑
-    color: $fg_color; // Yaru change: ↑↑↑
+    background-color: if($variant=="light", darken($key_bg_color, 10%), lighten($key_bg_color, 20%)); // Yarudave change: ↑↑↑
+    color: $fg_color; // Yarudave change: ↑↑↑
     &:hover {
-      background-color: if($variant=="light", darken($key_bg_color, 13%), lighten($key_bg_color, 25%)); // Yaru change: ↑↑↑
-      // color: lighten($osd_bg_color, 5%); // Yaru change: ↑↑↑
+      background-color: if($variant=="light", darken($key_bg_color, 13%), lighten($key_bg_color, 25%)); // Yarudave change: ↑↑↑
+      // color: lighten($osd_bg_color, 5%); // Yarudave change: ↑↑↑
     }
   }
 
@@ -103,22 +103,22 @@ $default_key_bg_color: $key_bg_color; // Yaru: Make keyboard buttons work on bot
 .keyboard-subkeys {
   -arrow-border-radius: $base_border_radius * 2;
   -arrow-background-color: $osd_bg_color;
-  // Yaru: Make keyboard popups work on both variants
+  // Yarudave: Make keyboard popups work on both variants
   -arrow-background-color: transparentize(if($variant=='light', darken($bg_color, 5%), darken($bg_color, 8%)), 0.1);
   -arrow-border-width: 1px;
-  -arrow-border-color: $borders_color; // Yaru: Make keyboard popups work on both variants
+  -arrow-border-color: $borders_color; // Yarudave: Make keyboard popups work on both variants
   -arrow-base: 20px;
   -arrow-rise: 10px;
   -boxpointer-gap: $base_padding;
   padding: $base_padding;
 
   .keyboard-key {
-    @include button(normal, $c:$key_bg_color, $tc:$fg_color); // Yaru change: ↑↑↑
+    @include button(normal, $c:$key_bg_color, $tc:$fg_color); // Yarudave change: ↑↑↑
 
     &:focus { @include button(focus);}
-    &:hover { @include button(hover, $c:$key_bg_color, $tc:$fg_color);} // Yaru change: ↑↑↑
-    &:active { @include button(active, $c:$key_bg_color, $tc:$fg_color); } // Yaru change: ↑↑↑
-    &:checked { @include button(checked, $c:$key_bg_color, $tc:$fg_color); } // Yaru change: ↑↑↑
+    &:hover { @include button(hover, $c:$key_bg_color, $tc:$fg_color);} // Yarudave change: ↑↑↑
+    &:active { @include button(active, $c:$key_bg_color, $tc:$fg_color); } // Yarudave change: ↑↑↑
+    &:checked { @include button(checked, $c:$key_bg_color, $tc:$fg_color); } // Yarudave change: ↑↑↑
 
     border-radius:$key_border_radius;
   }
@@ -147,7 +147,7 @@ $default_key_bg_color: $key_bg_color; // Yaru: Make keyboard buttons work on bot
   min-height: 17pt;
   padding: $base_padding * 2;
   color: $osd_fg_color;
-  color: $fg_color; // Yaru change: ↑↑↑
+  color: $fg_color; // Yarudave change: ↑↑↑
 
   // each suggestion
   StButton {
@@ -156,11 +156,11 @@ $default_key_bg_color: $key_bg_color; // Yaru: Make keyboard buttons work on bot
     border-radius: 4px;
     padding: 0px $base_padding * 3;
 
-    @include button(undecorated, $c:$key_bg_color, $tc:$fg_color); // Yaru change: ↑↑↑
+    @include button(undecorated, $c:$key_bg_color, $tc:$fg_color); // Yarudave change: ↑↑↑
 
     &:focus { @include button(focus);}
-    &:hover { @include button(hover, $c:$key_bg_color, $tc:$fg_color);} // Yaru change: ↑↑↑
-    &:active { @include button(active, $c:$key_bg_color, $tc:$fg_color); } // Yaru change: ↑↑↑
-    &:checked { @include button(checked, $c:$key_bg_color, $tc:$fg_color); } // Yaru change: ↑↑↑
+    &:hover { @include button(hover, $c:$key_bg_color, $tc:$fg_color);} // Yarudave change: ↑↑↑
+    &:active { @include button(active, $c:$key_bg_color, $tc:$fg_color); } // Yarudave change: ↑↑↑
+    &:checked { @include button(checked, $c:$key_bg_color, $tc:$fg_color); } // Yarudave change: ↑↑↑
   }
 }

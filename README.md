@@ -1,6 +1,6 @@
-# Ubuntu Yaru theme suite
+# Ubuntu Yarudave theme suite
 
-Yaru is the default theme for Ubuntu, backed by the community.
+Yarudave is the default theme for Ubuntu, backed by the community.
 
 It contains:
  * a GNOME Shell theme based on the [upstream GNOME shell theme](https://github.com/GNOME/gnome-shell/tree/master/data/theme)
@@ -22,9 +22,9 @@ It contains:
 
 ![Appgrid](.github/readme_pics/appgrid.png)
 
-## Using Yaru on Ubuntu
+## Using Yarudave on Ubuntu
 
-The Yaru theme suite is installed with Ubuntu 18.10+ by default! No further steps are required to use it.
+The Yarudave theme suite is installed with Ubuntu 18.10+ by default! No further steps are required to use it.
 
 _Installing from source is not recommended for average usage!_
 
@@ -32,7 +32,7 @@ _Installing from source is not recommended for average usage!_
 
 This project has mixed licencing. You are free to copy, redistribute and/or modify aspects of this work under the terms of each licence accordingly (unless otherwise specified).
 
-The Yaru icon assets (any and all source `.svg` files or rendered `.png` files) are licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+The Yarudave icon assets (any and all source `.svg` files or rendered `.png` files) are licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Included scripts are free software licensed under the terms of the [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt).
 

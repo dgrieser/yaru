@@ -93,22 +93,22 @@ foreach variant: variants
   install_dir = cinnamonshell_theme_dir + variant_suffix + '/cinnamon'
 
   accent_configuration = {
-    'yaru_dark_variant': is_dark ? 'true' : 'false',
-    'yaru_accent_color': is_custom_accent ? variant_base_name : 'default',
+    'yarudave_dark_variant': is_dark ? 'true' : 'false',
+    'yarudave_accent_color': is_custom_accent ? variant_base_name : 'default',
   }
 
   # Prepare colorable assets
-  shell_yaru_colors_defs_scss = configure_file(
+  shell_yarudave_colors_defs_scss = configure_file(
     configuration: accent_configuration + {
-      'yaru_theme_entry_point': yaru_colors_defs_scss
+      'yarudave_theme_entry_point': yarudave_colors_defs_scss
     },
     input: accent_colors_definitions_scss,
-    output: 'cinnamon-shell-yaru-colors-defs-@0@.scss'.format(variant),
+    output: 'cinnamon-shell-yarudave-colors-defs-@0@.scss'.format(variant),
   )
 
-  shell_yaru_colors_defs = custom_target(
-    'cinnamon-shell-yaru-color-definitions-@0@'.format(variant),
-    input: shell_yaru_colors_defs_scss,
+  shell_yarudave_colors_defs = custom_target(
+    'cinnamon-shell-yarudave-color-definitions-@0@'.format(variant),
+    input: shell_yarudave_colors_defs_scss,
     output: '@BASENAME@.css'.format(variant),
     command: [
       sassc, '-a', '@INPUT@', '@OUTPUT@',
@@ -117,7 +117,7 @@ foreach variant: variants
     ],
     depends: source_deps,
     depend_files: [
-      yaru_colors_defs_scss,
+      yarudave_colors_defs_scss,
       theme_sources,
     ]
   )
@@ -137,7 +137,7 @@ foreach variant: variants
     output: '@0@.scss'.format(stylename),
     configuration: {
       'DarkVariant': is_dark ? 'true' : 'false',
-      'YaruVariant': variant,
+      'YarudaveVariant': variant,
       'VariantDir': 'sass',
       # 'UseGResource': cinnamonshell_use_gresource ? 'true' : 'false',
       'Colors': 'colors',
@@ -149,7 +149,7 @@ foreach variant: variants
     theme_sources += theme_main_file
     theme_main_file = configure_file(
       configuration: accent_configuration + {
-        'yaru_theme_entry_point': meson.project_build_root() / '@0@'.format(theme_main_file),
+        'yarudave_theme_entry_point': meson.project_build_root() / '@0@'.format(theme_main_file),
       },
       input: accent_colors_definitions_scss,
       output: '@0@-accent-colors.scss'.format(stylename),
@@ -217,12 +217,12 @@ foreach variant: variants
       output: '@BASENAME@-@0@.svg'.format(variant),
       command: [
         colorize_dummy_svg,
-        shell_yaru_colors_defs,
+        shell_yarudave_colors_defs,
         '--input-file', '@INPUT@',
         '--output-folder', '@OUTDIR@'+'/@0@@1@'.format(variant, asset_rel_dir),
         '--variant', variant,
       ],
-      depends: shell_yaru_colors_defs,
+      depends: shell_yarudave_colors_defs,
       build_by_default: true,
     )
 

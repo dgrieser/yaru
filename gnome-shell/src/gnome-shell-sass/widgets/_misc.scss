@@ -1,5 +1,5 @@
 // Rubberband for select-area screenshots
-.select-area-rubberband { // Yaru: orange is too colorful here, thus use grays
+.select-area-rubberband { // Yarudave: orange is too colorful here, thus use grays
   background-color: transparentize($ash, 0.8);
   border: 1px solid transparentize($silk, 0.2);
 }
@@ -10,7 +10,7 @@
   border-radius: $forced_circular_radius;
   icon-size: $base_icon_size * 4;
 
-  /* Yaru: See commit 3d4aca768250 */
+  /* Yarudave: See commit 3d4aca768250 */
   background-color: transparentize($fg_color,0.95);
   color: $fg_color;
 

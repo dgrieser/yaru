@@ -8,7 +8,7 @@ gtk_versions = [
   '4.0'
 ]
 
-gtk_yaru_colors_defs = {}
+gtk_yarudave_colors_defs = {}
 sass_global_paths = ['-I', meson.project_source_root() / 'common']
 
 foreach flavour: flavours
@@ -23,13 +23,13 @@ foreach flavour: flavours
 
   if is_accent
     accent_configuration = {
-      'yaru_dark_variant': is_dark ? 'true' : 'false',
-      'yaru_accent_color': accent,
+      'yarudave_dark_variant': is_dark ? 'true' : 'false',
+      'yarudave_accent_color': accent,
     }
 
     accent_info_css = configure_file(
       configuration: accent_configuration + {
-        'yaru_theme_entry_point': '/dev/null',
+        'yarudave_theme_entry_point': '/dev/null',
       },
       input: accent_colors_definitions_scss,
       output: '@0@-@1@-accent-color-info.scss'.format(theme_name, accent),
@@ -133,7 +133,7 @@ foreach flavour: flavours
       if is_accent
           gtk_accents_css = configure_file(
             configuration: accent_configuration + {
-              'yaru_theme_entry_point': meson.current_source_dir() / gtk_scss_path,
+              'yarudave_theme_entry_point': meson.current_source_dir() / gtk_scss_path,
             },
             input: accent_colors_definitions_scss,
             output: '@0@-accent-colors.scss'.format(target_name),
@@ -141,18 +141,18 @@ foreach flavour: flavours
 
           gtk_scss_path = gtk_accents_css
 
-          gtk_yaru_colors_defs_scss = configure_file(
+          gtk_yarudave_colors_defs_scss = configure_file(
             configuration: accent_configuration + {
-              'yaru_theme_entry_point': yaru_colors_defs_scss,
+              'yarudave_theme_entry_point': yarudave_colors_defs_scss,
             },
             input: accent_colors_definitions_scss,
-            output: '@0@-yaru-colors-defs.scss'.format(target_name),
+            output: '@0@-yarudave-colors-defs.scss'.format(target_name),
           )
 
-          gtk_yaru_colors_defs += {
+          gtk_yarudave_colors_defs += {
             target_name: custom_target(
-              '@0@-yaru-colors-definitions'.format(target_name),
-              input: gtk_yaru_colors_defs_scss,
+              '@0@-yarudave-colors-definitions'.format(target_name),
+              input: gtk_yarudave_colors_defs_scss,
               output: '@BASENAME@.css',
               command: [
                 sassc, '-a',
@@ -160,7 +160,7 @@ foreach flavour: flavours
                 '@INPUT@', '@OUTPUT@',
               ],
               depend_files: [
-                yaru_colors_defs_scss,
+                yarudave_colors_defs_scss,
                 gtk_scss_dependencies,
               ]
             )

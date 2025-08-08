@@ -1,6 +1,6 @@
-# Contributing to Yaru
+# Contributing to Yarudave
 
-Yaru consists of one project with 4 distinct parts.
+Yarudave consists of one project with 4 distinct parts.
 
 - `gnome-shell` directory is the theme for GNOME Shell. This themes stuff like the calendar widget, the Ubuntu dock, the top panel, the login screen and more. It derives from upstream GNOME Shell theme.
 - `gtk` contains the themes GTK+2 and GTK+3. This specifies how applications like Files, Terminal, Ubuntu Software look. It derives from upstream Adwaita GTK+2 and GTK+3 themes.
@@ -18,7 +18,7 @@ sudo apt install libgtk-3-dev git meson sassc
 # Download the repository from github
 ```bash
 git clone https://github.com/ubuntu/yaru.git
-cd yaru
+cd yarudave
 # Initialize build system (only required once per repo)
 meson build
 cd build
@@ -35,13 +35,13 @@ sudo apt install libgtk-3-dev git meson sassc inkscape optipng ruby
 If you want to change the GDM look and point to the same stylesheet. You only need to do this once.
 
 ```sh
-update-alternatives --install /usr/share/gnome-shell/theme/gdm.css gdm.css /usr/share/gnome-shell/theme/Yaru/gnome-shell.css 15
+update-alternatives --install /usr/share/gnome-shell/theme/gdm.css gdm.css /usr/share/gnome-shell/theme/Yarudave/gnome-shell.css 15
 
 # Otherwise using a gresource file
-update-alternatives --install /usr/share/gnome-shell/gdm-theme.gresource gdm-theme.gresource /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource 15
+update-alternatives --install /usr/share/gnome-shell/gdm-theme.gresource gdm-theme.gresource /usr/share/gnome-shell/theme/Yarudave/gnome-shell-theme.gresource 15
 ```
 
-If you reboot, select the Yaru session in GDM and you should be all right.
+If you reboot, select the Yarudave session in GDM and you should be all right.
 
 ### Help to install Gtk4 and Libadwaita
 
@@ -108,7 +108,7 @@ Now you can run the `adwaita-1-demo` using the console:
 adwaita-1-demo
 ```
 
-**Note:** regardless of your current gtk theme, `adwaita-1-demo` use **Adwaita** by default. You must switch to **Yaru** using the gtk inspector.
+**Note:** regardless of your current gtk theme, `adwaita-1-demo` use **Adwaita** by default. You must switch to **Yarudave** using the gtk inspector.
 
 ## Build .deb files from source
 - Install `debian-packaging-tools` packages:
@@ -125,8 +125,8 @@ git clone https://github.com/ubuntu/yaru.git
 
 - Building binary `debian-packages` for testing:
 ```bash
-#Inside yaru directory
-cd yaru
+#Inside yarudave directory
+cd yarudave
 #Building binary debian files
 dpkg-buildpackage --build=binary -uc -us -tc
 ```
@@ -134,36 +134,36 @@ dpkg-buildpackage --build=binary -uc -us -tc
 
 - Installing `deb(s)`:
 ```bash
-#Leaving yaru directory
+#Leaving yarudave directory
 cd ..
 #Installing all generated .deb(s)
-sudo dpkg -i yaru-theme-*.deb
+sudo dpkg -i yarudave-theme-*.deb
 ```
 
 ### More granular changes
 
 Now everything should be in place. Select the GTK, icon and sound theme via:
 ```bash
-gsettings set org.gnome.desktop.interface gtk-theme Yaru
-gsettings set org.gnome.desktop.sound theme-name Yaru
-gsettings set org.gnome.desktop.interface icon-theme Yaru
+gsettings set org.gnome.desktop.interface gtk-theme Yarudave
+gsettings set org.gnome.desktop.sound theme-name Yarudave
+gsettings set org.gnome.desktop.interface icon-theme Yarudave
 ```
 
-The GTK2, GTK3 and GTK4 files go into `/usr/local/share/themes/Yaru`. The shell files go into `/usr/local/share/gnome-shell/theme/Yaru`. You can edit the `gtk.css` and `gnome-shell.css` files in those folders directly for testing, or you can edit the SCSS files inside the folder you cloned from GitHub.
+The GTK2, GTK3 and GTK4 files go into `/usr/local/share/themes/Yarudave`. The shell files go into `/usr/local/share/gnome-shell/theme/Yarudave`. You can edit the `gtk.css` and `gnome-shell.css` files in those folders directly for testing, or you can edit the SCSS files inside the folder you cloned from GitHub.
 
-SCSS is the actual "source code" of the theme. This is compiled into the CSS files. Edit the SCSS if you want to contribute your changes back to us. SCSS is simple enough to get the hang of if you already know CSS. You can go through [this SCSS tutorial](http://marksheet.io/sass-scss-less.html) to learn more. After making your edits in the SCSS files, you can run `sudo ninja install` in the `yaru/build` folder. That’ll do all the compiling and installing.
+SCSS is the actual "source code" of the theme. This is compiled into the CSS files. Edit the SCSS if you want to contribute your changes back to us. SCSS is simple enough to get the hang of if you already know CSS. You can go through [this SCSS tutorial](http://marksheet.io/sass-scss-less.html) to learn more. After making your edits in the SCSS files, you can run `sudo ninja install` in the `yarudave/build` folder. That’ll do all the compiling and installing.
 
 Changes to Gnome Shell theme are visible after doing <kbd>Alt</kbd> + <kbd>F2</kbd> and running <kbd>r</kbd> as command. The changes to GTK theme will be visible after running the following commands.
 
 ```bash
 # To reload GTK theme
-# Change to Adwaita theme and back to Yaru
+# Change to Adwaita theme and back to Yarudave
 gsettings set org.gnome.desktop.interface gtk-theme Adwaita
-gsettings set org.gnome.desktop.interface gtk-theme Yaru
+gsettings set org.gnome.desktop.interface gtk-theme Yarudave
 # To reload icon theme
-# Change to Humanity icon theme and back to Yaru
+# Change to Humanity icon theme and back to Yarudave
 gsettings set org.gnome.desktop.interface icon-theme Humanity
-gsettings set org.gnome.desktop.interface icon-theme Yaru
+gsettings set org.gnome.desktop.interface icon-theme Yarudave
 ```
 
 ### Testing desktop-login sound
@@ -236,13 +236,13 @@ We remove on new version import:
 - `*.css`: we build these from the `*.scss` sources
 
 
-## Get your copy of Yaru and make a Pull Request (PR)
+## Get your copy of Yarudave and make a Pull Request (PR)
 
-On our GitHub page (where you are probably reading this), *fork* the Yaru repository, then clone your copy locally on your computer and build it for the first time to verify that everyting is in place.
+On our GitHub page (where you are probably reading this), *fork* the Yarudave repository, then clone your copy locally on your computer and build it for the first time to verify that everyting is in place.
 
 ```bash
 git clone https://github.com/yourusername/yaru.git
-cd yaru
+cd yarudave
 meson build
 sudo -i -H ninja install -C build
 ```
@@ -296,4 +296,4 @@ Finally, make a Pull Request (PR) from *branch-name*
 git push --set-upstream origin add-git-workflow
 ```
 
-Open Yaru GitHub repository page, a link to "Create your Pull request" should appear on the main page
+Open Yarudave GitHub repository page, a link to "Create your Pull request" should appear on the main page

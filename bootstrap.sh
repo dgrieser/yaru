@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 # -*- coding: UTF-8 -*-
-## This script will make you up and running for testing and/or development on the Yaru project.
+## This script will make you up and running for testing and/or development on the Yarudave project.
 ## usage:
 ##  bootstrap.sh --development
 ##  bootstrap.sh --testing
 ##  bootstrap.sh --build
 ##
 ##  options:
-##    -d, --development Install the dependencies for building and installing Yaru theme
-##    -t, --testing     Install the dependencies for testing an already installed Yaru theme
-##    -b, --build       Build and install Yaru theme
+##    -d, --development Install the dependencies for building and installing Yarudave theme
+##    -t, --testing     Install the dependencies for testing an already installed Yarudave theme
+##    -b, --build       Build and install Yarudave theme
 # CLInt GENERATED_CODE: start
 
 # No-arguments is not allowed
@@ -61,7 +61,7 @@ function install {
   target=$1
   shift
   deps=($@)
-  log "the following application will be installed for $target Yaru"
+  log "the following application will be installed for $target Yarudave"
   for d in ${deps[@]}; do
     echo - $d
   done
