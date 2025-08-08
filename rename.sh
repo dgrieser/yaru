@@ -14,4 +14,5 @@ echo "Renaming in content..." 1>&2
 grep -lIir "yaru" . | grep -v "^./.git" | while IFS= read -r file; do
     echo "Replacing content in ${file}..."
     sed -i -E 's/(yaru)/\1dave/ig' "${file}"
+    sed -i -E 's/(yaru)dave\.git/\1\.git/ig' "${file}"
 done
