@@ -2,7 +2,8 @@
 
 APP="$(basename "${0}")"
 
-jet_new="#2C3540"
+#jet_new="#2C3540"
+jet_new="#292E34"
 
 grep -lr '$jet: #181818;' . | grep -v '^\./\.git'
 
