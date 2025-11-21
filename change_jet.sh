@@ -9,10 +9,10 @@ jet_new="${JET_NEW:-#262A2E}"
 
 script_dir="$(cd -- "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Limit the search to the theme sources (and any generated build output), but skip
-# VCS metadata and this helper script itself.
-search_roots=(.)
-exclude_dirs=(--exclude-dir=.git --exclude-dir=.sass-cache --exclude-dir=meson-logs --exclude-dir=meson-private)
+# Limit the search to theme sources/build outputs, but skip VCS metadata,
+# sass caches, and heavy asset dirs (icons stay untouched).
+search_roots=(common gnome-shell gtk cinnamon-shell ubuntu-unity xfwm4 metacity build)
+exclude_dirs=(--exclude-dir=.git --exclude-dir=.sass-cache --exclude-dir=meson-logs --exclude-dir=meson-private --exclude-dir=icons --exclude-dir=sounds)
 exclude_files=(--exclude="${APP}")
 
 echo "Using jet_old=${jet_old}, jet_new=${jet_new}"
