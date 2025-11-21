@@ -3,8 +3,8 @@
 # or
 # /usr/share/xfwm4/defaults
 
-active_text_color=#1d1d1d
-active_text_shadow_color=#1d1d1d
+active_text_color=#2b2f34
+active_text_shadow_color=#2b2f34
 inactive_text_color=#565656
 inactive_text_shadow_color=#565656
 title_shadow_active=false

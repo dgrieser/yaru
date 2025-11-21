@@ -59,7 +59,7 @@ stage {
   #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
     color: rgba(255, 255, 255, 0.32);
     background-color: #383838;
-    border-color: 1px solid #272727;
+    border-color: 1px solid #34393f;
     box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.05); }
   #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
     icon-size: 16px;
@@ -1500,7 +1500,7 @@ StScrollBar {
   padding: 0;
   border: none;
   -slider-height: 0.5em;
-  -slider-background-color: #222222;
+  -slider-background-color: #2f3439;
   -slider-border-color: rgba(0, 0, 0, 0);
   -slider-active-background-color: #35a854;
   -slider-active-border-color: rgba(0, 0, 0, 0);
@@ -1691,7 +1691,7 @@ StScrollBar {
   .desklet-header {
     border: 1px solid #202020;
     border-radius: 5px 5px 0 0;
-    background-color: #272727;
+    background-color: #34393f;
     color: rgba(255, 255, 255, 0.87);
     font-size: 1em;
     padding: 12px;
