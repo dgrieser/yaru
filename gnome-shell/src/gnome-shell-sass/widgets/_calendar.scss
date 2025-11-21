@@ -7,7 +7,7 @@
 
 .datemenu-popover {
   border-radius: $base_border_radius * 1.5 + $base_padding * 3;
-  border-radius: $yaru_menu_border_radius;
+  border-radius: $yarudave_menu_border_radius;
 }
 
 // calendar menu side column
@@ -35,7 +35,7 @@
     @extend %title_2;
   }
 
-  &:insensitive { // Yaru change: fix insensitive state in light theme
+  &:insensitive { // Yarudave change: fix insensitive state in light theme
     .day-label, .date-label {
       color: $insensitive_fg_color;
     }

@@ -172,7 +172,7 @@ linker () {
 echo "Generating links for fullcolor icons..."
 for VARIANT in "${VARIANTS[@]}"
 do
-	[[ $VARIANT = "default" ]] && THEME="Yaru" || THEME="Yaru-${VARIANT}"
+	[[ $VARIANT = "default" ]] && THEME="Yarudave" || THEME="Yarudave-${VARIANT}"
 	for CONTEXT in "${CONTEXTS[@]}"
 	do
 		dlog " -- "${CONTEXT}
@@ -188,7 +188,7 @@ echo "Done"
 echo "Generating links for symbolic icons..."
 for VARIANT in "${VARIANTS[@]}"
 do
-	[[ $VARIANT = "default" ]] && THEME="Yaru" || THEME="Yaru-${VARIANT}"
+	[[ $VARIANT = "default" ]] && THEME="Yarudave" || THEME="Yarudave-${VARIANT}"
 	for CONTEXT in "${CONTEXTS[@]}"
 	do
 		dlog " -- "$CONTEXT

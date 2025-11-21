@@ -5,7 +5,7 @@ from os import environ, path
 from subprocess import call
 import sys
 
-project_name = 'Yaru'
+project_name = 'Yarudave'
 with suppress(IndexError):
     project_name = sys.argv[1]
 

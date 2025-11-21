@@ -22,7 +22,7 @@ import os
 
 from glob import glob
 
-# Keep this in sync with yaru-colors-defs.scss, or the input CSS in use.
+# Keep this in sync with yarudave-colors-defs.scss, or the input CSS in use.
 DUMMY_COLORS = {
     'accent-color': '#00ff03',
     'accent-color-hc': '#00ff04',
@@ -52,10 +52,10 @@ def read_colors_replacements(css_file):
 
     for l in css_file.readlines():
         for line in l.split('//')[0].split(';'):
-            if '-yaru-' not in line:
+            if '-yarudave-' not in line:
                 continue
 
-            [named_color, color] = line.split('-yaru-', 1)[-1].split(': ')
+            [named_color, color] = line.split('-yarudave-', 1)[-1].split(': ')
             colors_replacements[DUMMY_COLORS[named_color]] = color
             print(named_color, color, f'(replaces {DUMMY_COLORS[named_color]})')
 
@@ -79,7 +79,7 @@ def replace_colors(svg, replacements, output_folder, variant):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('yaru_colors_defs_scss', type=argparse.FileType('r'))
+    parser.add_argument('yarudave_colors_defs_scss', type=argparse.FileType('r'))
     parser.add_argument('--input-file', default=None)
     parser.add_argument('--assets-path', default='.')
     parser.add_argument('--output-folder', default='.')
@@ -88,7 +88,7 @@ if __name__ == '__main__':
     parser.add_argument('--exclude', action='append', default=[])
 
     args = parser.parse_args()
-    replacements = read_colors_replacements(args.yaru_colors_defs_scss)
+    replacements = read_colors_replacements(args.yarudave_colors_defs_scss)
     variant = None if args.variant == 'default' else args.variant
 
     if args.input_file:

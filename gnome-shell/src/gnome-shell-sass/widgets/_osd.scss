@@ -49,7 +49,7 @@ $osd_levelbar_height:6px;
 }
 
 /* Pad OSD */
-.pad-osd-window { // Yaru: Make pad OSD visible again in the light theme by using osd colors, should be ported to upstream
+.pad-osd-window { // Yarudave: Make pad OSD visible again in the light theme by using osd colors, should be ported to upstream
   padding: 32px;
   background-color: $osd_bg_color;
   color: $osd_fg_color;

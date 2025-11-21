@@ -1,4 +1,4 @@
-project('Yaru',
+project('Yarudave',
         version: '24.04.3',
         meson_version: '>= 0.59',
         license : ['GPL3', 'CC BY-SA 4.0'],

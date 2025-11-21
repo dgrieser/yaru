@@ -1,4 +1,4 @@
-yaru-theme (24.04.3-0ubuntu1) oracular; urgency=medium
+yarudave-theme (24.04.3-0ubuntu1) oracular; urgency=medium
 
   [ Thomas Staudinger ]
   * gtksourceview: Add support for new libgedit-gtksourceview xml scheme
@@ -22,7 +22,7 @@ yaru-theme (24.04.3-0ubuntu1) oracular; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 05 Jun 2024 02:16:01 +0200
 
-yaru-theme (24.04.2-0ubuntu1) noble; urgency=medium
+yarudave-theme (24.04.2-0ubuntu1) noble; urgency=medium
 
   * calendar: Use the same border radius we use for quicksettings
     (LP: #2062388)
@@ -32,7 +32,7 @@ yaru-theme (24.04.2-0ubuntu1) noble; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 18 Apr 2024 19:06:05 +0200
 
-yaru-theme (24.04.1-0ubuntu1) noble; urgency=medium
+yarudave-theme (24.04.1-0ubuntu1) noble; urgency=medium
 
   [ Muqtadir ]
   * Sync with `org.gnome.Settings` symbolic icons changes
@@ -59,7 +59,7 @@ yaru-theme (24.04.1-0ubuntu1) noble; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 17 Apr 2024 21:44:55 +0200
 
-yaru-theme (24.04.0-0ubuntu1) noble; urgency=medium
+yarudave-theme (24.04.0-0ubuntu1) noble; urgency=medium
 
   [ Paul Kepinski ]
   * Change upstream gnome-usage branch to main
@@ -70,7 +70,7 @@ yaru-theme (24.04.0-0ubuntu1) noble; urgency=medium
   * Revert progress color to pure accent
   * GS: fix slider height
   * Fix looking glass extensions cards
-  * yaru_icons.dart sync
+  * yarudave_icons.dart sync
 
   [ Marco Trevisan (Treviño) ]
   * New upstream snapshot for GNOME Shell
@@ -97,7 +97,7 @@ yaru-theme (24.04.0-0ubuntu1) noble; urgency=medium
   * gnome-shell: Don't give login-dialog another background-color
 
   [ Sergio Costas ]
-  * Update Yaru to new Dash-to-Dock code
+  * Update Yarudave to new Dash-to-Dock code
   * Add extra changes from DashToDock
   * Fix apps view
 
@@ -109,7 +109,7 @@ yaru-theme (24.04.0-0ubuntu1) noble; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 22 Mar 2024 10:01:18 +0100
 
-yaru-theme (23.10.0-0ubuntu1) mantic; urgency=medium
+yarudave-theme (23.10.0-0ubuntu1) mantic; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * meson: Bump version to 23.10.0
@@ -118,17 +118,17 @@ yaru-theme (23.10.0-0ubuntu1) mantic; urgency=medium
   * gnome-shell, drawing: Use insensitive color for undecorated buttons
   * common: Use focus border color for system entries focus ring
   * sessions: Add variant preference depending on default shell variant
-  * gnome-shell: Remove some Yaru delta that is not needed anymore
+  * gnome-shell: Remove some Yarudave delta that is not needed anymore
   * colors: Use system-borders-colors instead of our defined borders-color-dark
   * gnome-shell: Update toggle-on/off high-contrast assets to match upstream
-  * yaru-color-defs: Increase switch bg contrast on dark
+  * yarudave-color-defs: Increase switch bg contrast on dark
   * colorize-dummy: Add support for high-contrast colors
   * toggle-on-hc: Use high contrast accent color
-  * gnome-shell: Use shared definitions for yaru colors only
+  * gnome-shell: Use shared definitions for yarudave colors only
   * gnome-shell: Use dark mode for high-contrast theme
   * meson: Use blue-dark as default high-contrast variant
   * quick-settings: Compute taggle-bg-color using optimize contrast function
-  * yaru-colors: Redefine selected-bg-color using contrast-optimized value
+  * yarudave-colors: Redefine selected-bg-color using contrast-optimized value
   * gnome-shell, quick-settings: Use default upstream implementation
   * debian/control: Set breaks on gnome-shell << 45~
 
@@ -184,14 +184,14 @@ yaru-theme (23.10.0-0ubuntu1) mantic; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Tue, 29 Aug 2023 00:39:34 +0200
 
-yaru-theme (23.04.4-0ubuntu1) lunar; urgency=medium
+yarudave-theme (23.04.4-0ubuntu1) lunar; urgency=medium
 
   [ Paul Kepinski ]
   * GS: fix light theme invisible text (LP: #2012991)
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 13 Apr 2023 22:17:56 +0200
 
-yaru-theme (23.04.3-0ubuntu1) lunar; urgency=medium
+yarudave-theme (23.04.3-0ubuntu1) lunar; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * meson: Release 23.04.3
@@ -208,7 +208,7 @@ yaru-theme (23.04.3-0ubuntu1) lunar; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Tue, 04 Apr 2023 21:56:24 +0200
 
-yaru-theme (23.04.2-0ubuntu1) lunar; urgency=medium
+yarudave-theme (23.04.2-0ubuntu1) lunar; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * New upstream Release 23.04.2
@@ -245,7 +245,7 @@ yaru-theme (23.04.2-0ubuntu1) lunar; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Mon, 27 Mar 2023 21:30:34 +0200
 
-yaru-theme (23.04.1-0ubuntu1) lunar; urgency=medium
+yarudave-theme (23.04.1-0ubuntu1) lunar; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * meson: Release 23.04.1
@@ -255,7 +255,7 @@ yaru-theme (23.04.1-0ubuntu1) lunar; urgency=medium
 
   [ Paul Kepinski ]
   * Add libreoffice symbolic app icons
-  * Add missing "Yaru change" comment
+  * Add missing "Yarudave change" comment
   * Add soft light border to libhandy apps
   * Add text-x-dart mimetype
   * Adjust LO mimetype icons
@@ -282,7 +282,7 @@ yaru-theme (23.04.1-0ubuntu1) lunar; urgency=medium
   * Sync icon theme with upstream
   * Sync symbolic icons with libadwaita upstream
   * Sync upstream Adwaita icons foler
-  * Sync yaru with upstream
+  * Sync yarudave with upstream
   * Timeshift icons overridden with backups icon
   * Use even checkmark  (gtk3/4, GS, cinnamon)
 
@@ -297,7 +297,7 @@ yaru-theme (23.04.1-0ubuntu1) lunar; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 17 Mar 2023 01:25:10 +0100
 
-yaru-theme (22.10.3) kinetic; urgency=medium
+yarudave-theme (22.10.3) kinetic; urgency=medium
 
   * dock: Sync theme with upstream d2d fixes.
     This includes fixes coming from:
@@ -324,7 +324,7 @@ yaru-theme (22.10.3) kinetic; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Sat, 24 Sep 2022 11:11:01 +0200
 
-yaru-theme (22.10.2) kinetic; urgency=medium
+yarudave-theme (22.10.2) kinetic; urgency=medium
 
   [ Muqtadir ]
   * Add gnome-text-editor icons
@@ -355,7 +355,7 @@ yaru-theme (22.10.2) kinetic; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 16 Sep 2022 01:00:33 +0200
 
-yaru-theme (22.10.1) kinetic; urgency=medium
+yarudave-theme (22.10.1) kinetic; urgency=medium
 
   [ Paul Kepinski ]
   * Sync with Libadwaita symbolics
@@ -388,7 +388,7 @@ yaru-theme (22.10.1) kinetic; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 25 Aug 2022 01:42:10 +0200
 
-yaru-theme (22.04.4) jammy; urgency=medium
+yarudave-theme (22.04.4) jammy; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * icons: Ensure symlinks are installed as such for all variants
@@ -399,7 +399,7 @@ yaru-theme (22.04.4) jammy; urgency=medium
   * gtk/index.theme: Follow the standard on index definition.
     There's not a real standard definition but the latest one is still
     defined at https://wiki.xfce.org/gnome-theme-package
-  * gtk: Include some X-Yaru parameters on index.theme
+  * gtk: Include some X-Yarudave parameters on index.theme
   * accent-colors: Also override $accent_color variable.
     It's used by libadwaita for now, but could be used more, so let's define
     it too.
@@ -457,7 +457,7 @@ yaru-theme (22.04.4) jammy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 13 Apr 2022 16:55:44 +0200
 
-yaru-theme (22.04.3.1) jammy; urgency=medium
+yarudave-theme (22.04.3.1) jammy; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * gtk: Do not use shell scss sources to define accent colors used by icons
@@ -506,15 +506,15 @@ yaru-theme (22.04.3.1) jammy; urgency=medium
   * debian/rules: Enable user themes support in packages
   * icons: Add more accented icons
   * icons: Use better name for rendered icon target
-  * gtk, gnome-shell: Only generate Yaru-$accent-dark themes if `dark` is set
+  * gtk, gnome-shell: Only generate Yarudave-$accent-dark themes if `dark` is set
   * icons: Generate dark variants of the icons theme
   * CI: Also consider untracked changes on rendering/optimizing icons
   * CI: Use proper syntax to check on rendered icons changes
   * icons: Install icons symlinks as such also with older meson versions
-  * icons: Inherit dark accented variants from Yaru-dark as primary choice
-  * yaru-colors-defs: Use a map to define colors so we can avoid repetitions
-  * yaru-colors-defs: Ensure we always generate opaque colors
-  * yaru-colors-defs: Use more css-style generated definitions
+  * icons: Inherit dark accented variants from Yarudave-dark as primary choice
+  * yarudave-colors-defs: Use a map to define colors so we can avoid repetitions
+  * yarudave-colors-defs: Ensure we always generate opaque colors
+  * yarudave-colors-defs: Use more css-style generated definitions
   * gnome-shell: Use proper name for generated target output name
   * gnome-shell: Define custom checkbox bg color and expose bg-color as such
   * icons/symlinks: avoid using symlinks to symlinks not to confuse generator
@@ -574,11 +574,11 @@ yaru-theme (22.04.3.1) jammy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Mon, 28 Mar 2022 23:58:51 +0200
 
-yaru-theme (22.04.2) jammy; urgency=medium
+yarudave-theme (22.04.2) jammy; urgency=medium
 
   [ Paul Kepinski ]
   * Generate missing mate symlinks
-  * Fix Yaru-mate-dark symlinks
+  * Fix Yarudave-mate-dark symlinks
   * Fix dialog border-radius
   * Add icon theme symbolic variant support
     * Move default symbolics to subfolder
@@ -682,7 +682,7 @@ yaru-theme (22.04.2) jammy; urgency=medium
     - added various colors from elementary's stylesheet as placeholder.
   * add gtk-3.0  and gtk-4.0 color variants
   * use deafult's gtk-2.0 for build to pass
-  * update debian/yaru-theme-gtk.install
+  * update debian/yarudave-theme-gtk.install
   * add color-variant for folders and user-desktop
   * Added color-variant for filemanager-app
     - Also improved the 2-shade gradient by making it a 12-shade gradient of
@@ -718,7 +718,7 @@ yaru-theme (22.04.2) jammy; urgency=medium
     Use some scss magic to create accent color themes without having us to
     re-create or re-define all the themes.
     We use an accent-colors scss file as entry point that may define the
-    yaru variables for accent colors and then we load the standard themes.
+    yarudave variables for accent colors and then we load the standard themes.
     In case such variables are defined, the accents are set.
   * gnome-shell: Use SCSS to compute the final icon URI.
     Depending on the theme we want to use we may need to load different
@@ -765,7 +765,7 @@ yaru-theme (22.04.2) jammy; urgency=medium
   * icons: Generate symlinks as part of icon rendering target.
     We can generate symlinks as well once the rendering is done, to have
     all in one step
-  * icons: Regenerate symlinks for Yaru default theme
+  * icons: Regenerate symlinks for Yarudave default theme
   * icons: Add support for generating icons with accent colors.
     We use the accent-colors computed through the GTK logic to re-color our
     SVG.
@@ -774,7 +774,7 @@ yaru-theme (22.04.2) jammy; urgency=medium
   * icons: Generate index.theme files at configure stage if not any.
     The update operation is quick enough that there's no need to define an
     extra step for it during icons rendering
-  * icons: Generate assets for Yaru accent colors.
+  * icons: Generate assets for Yarudave accent colors.
     All thanks to ninja -C _build -v render-accented-icons
   * icons: Generate icons for sage and prussian green variants
   * gnome-shell: Expose default gdm and shell variants on configure options.
@@ -790,7 +790,7 @@ yaru-theme (22.04.2) jammy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 18 Mar 2022 04:04:13 +0100
 
-yaru-theme (22.04.1) jammy; urgency=medium
+yarudave-theme (22.04.1) jammy; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * New upstream release
@@ -799,7 +799,7 @@ yaru-theme (22.04.1) jammy; urgency=medium
   * dock: Update CSS to support dash-to-dock 71+, and move most styling here
     (LP: #1942702)
   * debian/control: Set Breaks on older GNOME Shell versions
-  * gnome-shell: Add a note on recent Yaru changes
+  * gnome-shell: Add a note on recent Yarudave changes
 
   [ Paul Kepinski ]
   * Add Cinnamon theme upstream fetch
@@ -841,7 +841,7 @@ yaru-theme (22.04.1) jammy; urgency=medium
   * Fix Gnome Shell assets
   * Fix Gtk3 headerbar radius
   * Fix Gtk4 mate dark assets symlink
-  * Fix Yaru-dark gtk2 assets
+  * Fix Yarudave-dark gtk2 assets
   * Fix applications-system icons
   * Fix broken duplicated config-users icon symlink
   * Fix evince branch name
@@ -871,7 +871,7 @@ yaru-theme (22.04.1) jammy; urgency=medium
   * Remove adaptive margins for preferences
   * Remove shadow on normal buttons
   * Rename Gtk-3.20 into Gtk-3.0
-  * Rename Suru to Yaru
+  * Rename Suru to Yarudave
   * Render Gtk2 assets
   * Render Gtk2 dark assets
   * Render Gtk3 and Gtk4 assets
@@ -925,7 +925,7 @@ yaru-theme (22.04.1) jammy; urgency=medium
   * phosh symbolics + missing symbolics
   * symlink org.gnome.Shell.Extensions-symbolic.svg
   * debian/changelog:
-  * add 22x22/categories to yaru-theme-icon.install
+  * add 22x22/categories to yarudave-theme-icon.install
   * update session overrides
   * update changelog
   * sync GNOME-Shell resources
@@ -966,7 +966,7 @@ yaru-theme (22.04.1) jammy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 24 Feb 2022 21:59:07 +0100
 
-yaru-theme (21.10.2) impish; urgency=medium
+yarudave-theme (21.10.2) impish; urgency=medium
 
   [ Joshua Peisach ]
   * Add desktop-logoff sound.
@@ -988,7 +988,7 @@ yaru-theme (21.10.2) impish; urgency=medium
       we need to understand why).
   * Symlink _colors to upstream and add overwrite file (#2949)
     * Symlink `_colors` to upstream ;
-    * Create a `_colors_yaru` file with only Yaru colors overwrite.
+    * Create a `_colors_yarudave` file with only Yarudave colors overwrite.
   * Revert to lighten dash background (#2950)
   * Add symlinked rtl variants for show-sidebar (#2961)
   * Improve selected row look (#2955)
@@ -1091,7 +1091,7 @@ yaru-theme (21.10.2) impish; urgency=medium
   [ Muqtadir ]
   * Update unity theme (#2953)
     * Added separate unity assets for default and dark
-    * Sync default unity with Yaru
+    * Sync default unity with Yarudave
     * Update index.theme
     Modified /gtk/src/meson.build to show correct ThemeName for IconTheme and
     CursorTheme
@@ -1102,7 +1102,7 @@ yaru-theme (21.10.2) impish; urgency=medium
       ubuntu-unity=true
     * Added missing categories-icons and symlinks
     * Modified debian files and unity-panel icons
-    - Split icons into yaru-theme-icon.install and yaru-theme-unity.install
+    - Split icons into yarudave-theme-icon.install and yarudave-theme-unity.install
       under debian
     - Changed all arbitrary colors to white undet unity-panel icons
   * add text-x-c++hdr mimetype (#2969)
@@ -1119,11 +1119,11 @@ yaru-theme (21.10.2) impish; urgency=medium
     * remove static-files not present from meson
     * Revert "changed barlevel-border-width back to 1px"
     This reverts commit 4e73e5c8ae741853f94900b3a3097e2c8231adfe.
-    * yarufy the OSK svgs
+    * yarudavefy the OSK svgs
     * reduce SVG sizes under src
     * removed transparent rect from checkboxes
   * added symlink for multitasking-panel (#2990)
-  * Update debian/yaru-theme-icon.install (#2988)
+  * Update debian/yarudave-theme-icon.install (#2988)
     - Added and removed few directories introduced in #2673
   * change edit-clear-symbolic (#2989)
     * change edit-clear-symbolic
@@ -1143,7 +1143,7 @@ yaru-theme (21.10.2) impish; urgency=medium
     * added remaining symlinks
     * added remaining symlinks
     * Re-organized cursors directory to not use symlinks
-  * support yaru for xfce (#2971)
+  * support yarudave for xfce (#2971)
     * add xfwm4 for default
     * add button-padding
     * Re-organize xfwm4 files
@@ -1157,7 +1157,7 @@ yaru-theme (21.10.2) impish; urgency=medium
     - Rendered .pngs for xfwm4-dark assets
     - Added themerc for default and dark
     * fixed title-active in xfwm4-dark
-    * added xfwm4 to debian/yaru-theme-gtk.install
+    * added xfwm4 to debian/yarudave-theme-gtk.install
     * Convert assests.txt into symlink and darken headerbar-color
     * added _xfce.scss
     * make xfwm4 false by default
@@ -1192,7 +1192,7 @@ yaru-theme (21.10.2) impish; urgency=medium
     * add color-picker cursor for KDE
     * add wayland cursor and update x.org cursor
     * build cursors
-    * change title to "Yaru Cursors"
+    * change title to "Yarudave Cursors"
     * build new cursors
 
   [ Cameron ]
@@ -1205,11 +1205,11 @@ yaru-theme (21.10.2) impish; urgency=medium
     We're past UI Freeze and this icon is showing in all the screenshots, so
     it may be a bit late for it.
     Better to wait next cycle.
-  * gnome-shell: Add a note on recent Yaru changes
+  * gnome-shell: Add a note on recent Yarudave changes
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Sat, 25 Sep 2021 14:45:02 +0200
 
-yaru-theme (21.10.1) impish; urgency=medium
+yarudave-theme (21.10.1) impish; urgency=medium
 
   [ Stuart Hayhurst ]
   * Removed unused defs (#2573)
@@ -1268,7 +1268,7 @@ yaru-theme (21.10.1) impish; urgency=medium
   * rename windows-close-24-symbolic.svg to preview-close-symbolic.svg (#2917)
 
   [ ubuntujaggers ]
-  * Adding Yaru icon for gparted (if it's a default app now) (#2776)
+  * Adding Yarudave icon for gparted (if it's a default app now) (#2776)
   * Adding full colour device icon for computer (#2786)
   * inverting hand cursors (#2848)
   * fixing watch cursors (#2851)
@@ -1309,8 +1309,8 @@ yaru-theme (21.10.1) impish; urgency=medium
   * ShellTheme: update to orange link colors (#2884)
   * GtkThemes: revert to upstreams app notifications (#2886)
   * Gtk4Theme: remove outdated tweaks (#2890)
-  * Gtk4: yaru upstream sync with tweak fixes (#2901)
-  * Remove "yaru-light" and keep "yaru" as the fully light theme (#2922)
+  * Gtk4: yarudave upstream sync with tweak fixes (#2901)
+  * Remove "yarudave-light" and keep "yarudave" as the fully light theme (#2922)
   * Gnome-software: remove css except green counter (#2942)
 
   [ benni3-1415 ]
@@ -1324,22 +1324,22 @@ yaru-theme (21.10.1) impish; urgency=medium
   * debian/control: Update breaks on gnome-shell 40
   * debian/control: Bump dependency on mutter 0.51
   * debian/control: Use debhelper 13
-  * debian/yaru-theme-gnome-shell.alternatives: Use dh_installalternatives.
+  * debian/yarudave-theme-gnome-shell.alternatives: Use dh_installalternatives.
     And switch to new alternative name (gdm-theme.gresource) as previous is
     not supported by gnome-shell >= 40. The shell will also care about
     removing all the gdm3-theme.gresource alternatives so we don't have to
     handle that here.
-  * debian/yaru-theme-gtk.install: Do not install Yaru-light themes anymore
+  * debian/yarudave-theme-gtk.install: Do not install Yarudave-light themes anymore
     They are not provided anymore as per commit 37c779.
-    There's only one yaru now.
-  * debian: Add migration script to migrate users from Yaru-light to Yaru.
+    There's only one yarudave now.
+  * debian: Add migration script to migrate users from Yarudave-light to Yarudave.
     We use session-migration through dh-migrations in d/control
   * gnome-shell/dock: Update theme to follow dash-to-dock changes
   * gnome-shell-theme.gresource.xml: Use gdm.css as stylesheet
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 07 Jul 2021 09:01:50 +0200
 
-yaru-theme (21.04.1) hirsute; urgency=medium
+yarudave-theme (21.04.1) hirsute; urgency=medium
 
   [ Carlo Lobrano ]
   * Do not specify binaries full paths
@@ -1375,7 +1375,7 @@ yaru-theme (21.04.1) hirsute; urgency=medium
   [ Paul Kepinski ]
   * Add wine icon (#2404)
   * Add missing view-sidebar symbolic icon (#2401)
-  * Include libhandy SCSS in yaru (#2482)
+  * Include libhandy SCSS in yarudave (#2482)
   * Add configure icons (#2477)
   * Libhandy upstream sync (#2483)
   * Fix application-x-addon crooked paths (#2485)
@@ -1417,7 +1417,7 @@ yaru-theme (21.04.1) hirsute; urgency=medium
   * Gtk4: dark switch improvements (#2706)
   * Fix sliders background overflow (#2708)
   * Add missing inode-directory-symbolic icon (#2711)
-  * Add Yaru notification symbolic icons (#2722)
+  * Add Yarudave notification symbolic icons (#2722)
   * Sync gtk2 assets with Gtk3/4 (#2727)
 
   [ Muqtadir ]
@@ -1439,7 +1439,7 @@ yaru-theme (21.04.1) hirsute; urgency=medium
   * Make pictogram clearer on Gedit app icon (#2479)
   * Making "tweak tool" icon more obvious in Inkscape (#2484)
   * Adding more descriptive gnome characters icon (#2527)
-  * Making network-server-symbolic more like the Yaru style (#2528)
+  * Making network-server-symbolic more like the Yarudave style (#2528)
   * Improving contrast on full colour network-server (#2619)
   * full colour icon for gnome sound recorder (#2648)
   * Improved Transmission app icon (#2653)
@@ -1453,7 +1453,7 @@ yaru-theme (21.04.1) hirsute; urgency=medium
   * Add MS Publisher and QEMU disk image mimetype icons (#2535)
 
   [ Frederik Feichtmeier ]
-  * Update README.md pics with groovy yaru (#2501)
+  * Update README.md pics with groovy yarudave (#2501)
   * GtkTheme: do not change tab fg color on hover (#2607)
   * Gtk4 theme fix tab fg color (#2608)
   * ShellTheme: make the dark shell darker (#2646)
@@ -1483,10 +1483,10 @@ yaru-theme (21.04.1) hirsute; urgency=medium
   [ Marco Trevisan ]
   * gnome-shell: Use $osd_fg_color for all the login messages (again) (#2634)
   * Gnome 3.38 resync (#2728)
-  * debian/yaru-theme-gnome-shell.install: Install Yaru-light variant
-  * debian/yaru-theme-gtk.install:
+  * debian/yarudave-theme-gnome-shell.install: Install Yarudave-light variant
+  * debian/yarudave-theme-gtk.install:
     - Include the GtkSourceView styles
-    - Spread the Yaru-light selection into its variants
+    - Spread the Yarudave-light selection into its variants
     - Install gtk-4.0 theme for all the variants
     - Include metacity themes
 
@@ -1510,7 +1510,7 @@ yaru-theme (21.04.1) hirsute; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 18 Mar 2021 18:54:55 +0100
 
-yaru-theme (20.10.6.1) groovy; urgency=medium
+yarudave-theme (20.10.6.1) groovy; urgency=medium
 
   [ Frederik Feichtmeier ]
   * Fix nautilus icon view backdrop text (#2397)
@@ -1520,7 +1520,7 @@ yaru-theme (20.10.6.1) groovy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Sat, 10 Oct 2020 21:12:58 +0200
 
-yaru-theme (20.10.6) groovy; urgency=medium
+yarudave-theme (20.10.6) groovy; urgency=medium
 
   [ Paul Kepinski ]
   * Link insync emblems to our ones (#2375)
@@ -1553,7 +1553,7 @@ yaru-theme (20.10.6) groovy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Tue, 06 Oct 2020 14:14:27 +0200
 
-yaru-theme (20.10.5) groovy; urgency=medium
+yarudave-theme (20.10.5) groovy; urgency=medium
 
   [ Paul Kepinski ]
   * Books rounded corners (#2363)
@@ -1565,7 +1565,7 @@ yaru-theme (20.10.5) groovy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Tue, 06 Oct 2020 14:11:42 +0200
 
-yaru-theme (20.10.4) groovy; urgency=medium
+yarudave-theme (20.10.4) groovy; urgency=medium
 
   [ Paul Kepinski ]
   * Add G.code icon (#2350)
@@ -1585,15 +1585,15 @@ yaru-theme (20.10.4) groovy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 24 Sep 2020 17:28:35 +0200
 
-yaru-theme (20.10.3) groovy; urgency=medium
+yarudave-theme (20.10.3) groovy; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * gnome-shell: Make world clock times tabular
   * gnome-shell: Sync upstream scss files
   * gnome-shell: Use proper path for upstream files
   * gnome-shell: Sync upstream icon files
-  * gnome-shell: Apply upstream changes to yaru (keeping our ones)
-  * gnome-shell: Sync yaru gresource including missing icon from upstream
+  * gnome-shell: Apply upstream changes to yarudave (keeping our ones)
+  * gnome-shell: Sync yarudave gresource including missing icon from upstream
 
   [ Jupiter007 ]
   * Add geary icons (#2259)
@@ -1666,17 +1666,17 @@ yaru-theme (20.10.3) groovy; urgency=medium
 
   [ Feichtmeier ]
   * Use OSD fg color on switcher OSDs
-  * Upstream shell sync + keep yaru design changes
+  * Upstream shell sync + keep yarudave design changes
   * New upstream snapshot for GNOME Shell Resources
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 11 Sep 2020 03:25:54 +0200
 
-yaru-theme (20.10.2) groovy; urgency=medium
+yarudave-theme (20.10.2) groovy; urgency=medium
 
   [ Carlo Lobrano ]
   * update README pictures (LP: #1887383)
   * build: deduplicate meson.build and introduce Flavours (#1884) (LP: #1887383)
-  * fix Yaru project name (LP: #1887383)
+  * fix Yarudave project name (LP: #1887383)
   * Fix spinner typo in tweaks.scss (LP: #1887383)
   * bootstrap: libgtk-3-dev is needed for building too (#2222) (LP: #1887383)
 
@@ -1737,7 +1737,7 @@ yaru-theme (20.10.2) groovy; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 17 Jul 2020 02:43:50 +0200
 
-yaru-theme (20.10.1) groovy; urgency=medium
+yarudave-theme (20.10.1) groovy; urgency=medium
 
   [ ubuntujaggers ]
   * adding full colour app icon for accessories-dictionary (LP: #1877468)
@@ -1752,7 +1752,7 @@ yaru-theme (20.10.1) groovy; urgency=medium
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Fri, 08 May 2020 15:26:23 +0200
 
-yaru-theme (20.04.6) focal; urgency=medium
+yarudave-theme (20.04.6) focal; urgency=medium
 
   [ Marco Trevisan ]
   * gnome-shell: Use $osd_fg_color for all the login messages (#2152)
@@ -1760,7 +1760,7 @@ yaru-theme (20.04.6) focal; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 16 Apr 2020 21:02:42 +0200
 
-yaru-theme (20.04.5) focal; urgency=medium
+yarudave-theme (20.04.5) focal; urgency=medium
 
   [ Carlo Lobrano ]
   * apps/nautilus: fix dim-label in selection and backdrop (LP: #1869141)
@@ -1774,12 +1774,12 @@ yaru-theme (20.04.5) focal; urgency=medium
   * Remove new legacy icons and include some from Humanity (LP: #1870925)
   * Adding symbols for system-reboot and system-log-out (LP: #1868385)
   * Adding missing symlinks for extensions app (Fixes: #2096)
-  * suggested (more yaru-style) icon for extensions
+  * suggested (more yarudave-style) icon for extensions
   * adding dialog-warning and symlinks (Fixes: #2103)
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Tue, 14 Apr 2020 17:45:05 +0200
 
-yaru-theme (20.04.4) focal; urgency=medium
+yarudave-theme (20.04.4) focal; urgency=medium
 
   [ Carlo Lobrano ]
   * apps/nautilus: style icon view caption labels (#2102)
@@ -1796,7 +1796,7 @@ yaru-theme (20.04.4) focal; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Tue, 24 Mar 2020 01:00:38 +0100
 
-yaru-theme (20.04.3) focal; urgency=medium
+yarudave-theme (20.04.3) focal; urgency=medium
 
   [ Carlo Lobrano ]
   * shell: re-use silver color for mouse selection
@@ -1823,7 +1823,7 @@ yaru-theme (20.04.3) focal; urgency=medium
   [ Feichtmeier ]
   * Tweaks.scss: notebook tab improvements
   * Shell theme upstream fixes (LP: #1865563)
-  * Shell theme: Provide a Yaru process-working asset
+  * Shell theme: Provide a Yarudave process-working asset
   * Gtk3: headerbar button fixes
   * Adapt gtk2 to gtk3
   * Gtk3: Make level bars green that aren't low
@@ -1850,7 +1850,7 @@ yaru-theme (20.04.3) focal; urgency=medium
   * Adding colour icons for headphones and headset
   * Spring clean square apps, including new Tweaks icon
   * changing proportions of download symbol to match folder icon
-  * Provide full colour Yaru legacy action icons
+  * Provide full colour Yarudave legacy action icons
   * Adding more legacy icons (mostly mail-related)
   * adding eye assets with thinner strokes (#2061)
   * Add redesign of network-workgroup icon (#2062)
@@ -1860,15 +1860,15 @@ yaru-theme (20.04.3) focal; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * GNOME Shell generate gresource (Fixes: #1938)
-  * gnome-shell-theme.gresource: Set gdm3.css theme alias to Yaru
+  * gnome-shell-theme.gresource: Set gdm3.css theme alias to Yarudave
   * debian/control: Breaks versions prior to 3.36.0
   * debian/rules: Enable gnome-shell-gresource in ubuntu
-  * yaru-theme-gnome-shell.{preinst,postinst,prerm}:
+  * yarudave-theme-gnome-shell.{preinst,postinst,prerm}:
     - Install gdm3-theme.gresource alternative
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 20 Mar 2020 01:13:07 +0100
 
-yaru-theme (20.04.2) focal; urgency=medium
+yarudave-theme (20.04.2) focal; urgency=medium
 
   [ ubuntujaggers ]
   * trying new icon for dconf editor
@@ -1903,7 +1903,7 @@ yaru-theme (20.04.2) focal; urgency=medium
   * Update legacy folder icon and add document-print-preview (#1934)
   * Mimetype icons for Krita, desktop, makefile + symlinks (#1931)
   * Symlink for selection-checked (#1932)
-  * Added icons for list-add and list-remove in Yaru style (#1928)
+  * Added icons for list-add and list-remove in Yarudave style (#1928)
   * Added mimetype icon for firmware (#1926)
   * Firmware icon updated (#1943)
   * Updated document-print-preview icon to be less ambiguous. Fixes 1962 (#1966)
@@ -1956,11 +1956,11 @@ yaru-theme (20.04.2) focal; urgency=medium
   * added icon for mimetype nim (#1888) (Closes: #1868)
 
   [ Stuart Hayhurst ]
-  * Documentation: fix typo in number of Yaru project parts
+  * Documentation: fix typo in number of Yarudave project parts
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 26 Feb 2020 15:08:33 +0100
 
-yaru-theme (20.04.1) focal; urgency=medium
+yarudave-theme (20.04.1) focal; urgency=medium
 
   [ Carlo Lobrano ]
   * apps: fix Tilix backdrop transparency
@@ -1972,7 +1972,7 @@ yaru-theme (20.04.1) focal; urgency=medium
   * icons: fix wrong weather symbolic icons
   * icons: fix warning color on battery icon 30/40 perc
   * gtk/tweaks: remove text shadow in osd
-  * unity: provide an up to date Yaru theme for Unity
+  * unity: provide an up to date Yarudave theme for Unity
   * unity: remove glossy effect and icon shadow on dock
   * audio: link device-added/removed audio file with power-plug/unplug
   * color: use aubergine as second accent color instead of blue
@@ -1984,7 +1984,7 @@ yaru-theme (20.04.1) focal; urgency=medium
   * debian: add -unity package configuration
   * headerbar: increase headerbar backdrop contrast
   * build: rework folder structure and build system to make variants independent
-  * build: release a complete Yaru-light with support for "prefer dark" app
+  * build: release a complete Yarudave-light with support for "prefer dark" app
   * tweaks: remove borders from menuitem's radiobox and checkbox
   * shell: improve scrollbar border in dark mode
   * headerbar: make button border less dark in backdrop
@@ -2004,7 +2004,7 @@ yaru-theme (20.04.1) focal; urgency=medium
   * add legacy buttons: document-export, document-import,
     document-open-recent, document-revert
   * changing document-export from red to blue arrow
-  * removing remmina icons from Yaru
+  * removing remmina icons from Yarudave
   * adding phone icon with improved proportions and reflections
   * adding improved network-server full colour icon
   * changing gradient of keyboard and server
@@ -2074,21 +2074,21 @@ yaru-theme (20.04.1) focal; urgency=medium
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Thu, 06 Feb 2020 17:25:21 +0000
 
-yaru-theme (19.10.5) eoan; urgency=medium
+yarudave-theme (19.10.5) eoan; urgency=medium
 
   * gnome-shell: Sync with 3.34.2 changes (LP: #1857037)
   * debian/gbp.conf: Target ubuntu/eoan branch
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 08 Jan 2020 13:54:22 +0000
 
-yaru-theme (19.10.4) eoan; urgency=medium
+yarudave-theme (19.10.4) eoan; urgency=medium
 
   [ Carlo Lobrano ]
-  * apps: Fix invisible menuitems in Firefox under Yaru-ambiance (LP: #1845680)
+  * apps: Fix invisible menuitems in Firefox under Yarudave-ambiance (LP: #1845680)
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Mon, 30 Sep 2019 14:21:36 +0100
 
-yaru-theme (19.10.3) eoan; urgency=medium
+yarudave-theme (19.10.3) eoan; urgency=medium
 
   [ Didier Roche ]
   * Only install light, default, dark with symlinks. (LP: #1844643)
@@ -2113,12 +2113,12 @@ yaru-theme (19.10.3) eoan; urgency=medium
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Fri, 20 Sep 2019 22:11:00 +0100
 
-yaru-theme (19.10.2) eoan; urgency=medium
+yarudave-theme (19.10.2) eoan; urgency=medium
 
   [ Feichtmeier ]
   * Ubuntu dock permanent transparency
-  * Provide yaru checkbox assets for the shell
-  * Provide yaru checkboxes for the dark shell
+  * Provide yarudave checkbox assets for the shell
+  * Provide yarudave checkboxes for the dark shell
   * Use correct paths + improve SVGs
   * Light headerbarb in light theme
   * Fix asset paths and blue shift keys
@@ -2150,22 +2150,22 @@ yaru-theme (19.10.2) eoan; urgency=medium
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Thu, 12 Sep 2019 12:04:51 +0100
 
-yaru-theme (19.10.1) eoan; urgency=medium
+yarudave-theme (19.10.1) eoan; urgency=medium
 
-  * Rebase Yaru on top of Adwaita 3.32
+  * Rebase Yarudave on top of Adwaita 3.32
     [ Feichtmeier ]
-    - Refresh Yaru with the latest upstream theme
+    - Refresh Yarudave with the latest upstream theme
     - Move main differences to new _tweaks.scss dedicated file (headerbar and
       included widgets, check/radio, switch, spinner)
-    - Apply Yaru color palette and geometry
+    - Apply Yarudave color palette and geometry
 
   * Icons
     [ Carlo Lobrano ]
     - Add missing rendering of preferences-desktop-font png
 
     [ ubuntujaggers ]
-    - Adding Remmina's yaru icon plus pngs
-    - Adding Livepatch's yaru icon plus pngs
+    - Adding Remmina's yarudave icon plus pngs
+    - Adding Livepatch's yarudave icon plus pngs
     - Remove symlink for org.gnome.font-viewer-symbolic
     - Fixing bottom left corner of 32px software centre icon
     - New status icon for dialog-error which is also used as an emblem
@@ -2179,10 +2179,10 @@ yaru-theme (19.10.1) eoan; urgency=medium
     - Version of Sudoku icon with numerals
     - New symbolic icons for application-x-appliance and applications-science
     - Adding full colour version of drive-removable-media-symbolic
-    - Adding Yaru icon for Transmission
+    - Adding Yarudave icon for Transmission
     - Adding device icons for optical media
     - Improvements to full colour printer icon
-    - Adding yaru app icons for LibreOffice
+    - Adding yarudave app icons for LibreOffice
     - Adding StartCenter icon
     - Adding Snap Store icon
     - Adding suggested replacement for files icon
@@ -2211,17 +2211,17 @@ yaru-theme (19.10.1) eoan; urgency=medium
 
     [ Iain Lane ]
     - Update gnome-shell upstream from 3.32.1
-    - Sync Yaru with changes in GNOME Shell 3.32.1 (LP: #1829699)
+    - Sync Yarudave with changes in GNOME Shell 3.32.1 (LP: #1829699)
 
     [ Marco Trevisan (Treviño) ]
     - gnome-shell: Sync scss with upstream changes for 3.34
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Mon, 19 Aug 2019 12:47:50 +0200
 
-yaru-theme (19.04.3) disco; urgency=medium
+yarudave-theme (19.04.3) disco; urgency=medium
 
   * gbp.conf: Update branch for ubuntu/disco
-  * Sync Yaru with changes in GNOME Shell 3.32.1
+  * Sync Yarudave with changes in GNOME Shell 3.32.1
     - Fixes switches in VPN submenu (LP: #1829699)
     - Fixes region screenshots (Shift + Print Screen) not displaying the
       region properly (LP: #1830003)
@@ -2232,7 +2232,7 @@ yaru-theme (19.04.3) disco; urgency=medium
 
  -- Iain Lane <iain.lane@canonical.com>  Fri, 24 May 2019 09:36:47 +0100
 
-yaru-theme (19.04.2) disco; urgency=medium
+yarudave-theme (19.04.2) disco; urgency=medium
 
   [ Feichtmeier ]
   * New symlinks for gnome-control-center (LP:#1820135)
@@ -2248,7 +2248,7 @@ yaru-theme (19.04.2) disco; urgency=medium
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Mon, 18 Mar 2019 17:50:36 +0100
 
-yaru-theme (19.04.1) disco; urgency=medium
+yarudave-theme (19.04.1) disco; urgency=medium
 
   [ Carlo Lobrano ]
   * Fix link color in infobar
@@ -2256,7 +2256,7 @@ yaru-theme (19.04.1) disco; urgency=medium
   * Visible scrollbar trough improve slider visibility
   * Move scrollbar trough styling from common to apps::firefox
   * Increase visibility of slider in normal and hover state
-  * Actually release Yaru-dark in debian package
+  * Actually release Yarudave-dark in debian package
   * Fixed osd button hover in light variant
   * Convert literal to float first and then to int
   * Allow generate-symlink providing a pattern
@@ -2451,7 +2451,7 @@ yaru-theme (19.04.1) disco; urgency=medium
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Tue, 12 Mar 2019 13:08:43 +0100
 
-yaru-theme (19.04) disco; urgency=medium
+yarudave-theme (19.04) disco; urgency=medium
 
   [ Carlo Lobrano ]
   * dark gtk-2.0
@@ -2490,7 +2490,7 @@ yaru-theme (19.04) disco; urgency=medium
   * common/scale circular slider: made border transparent in dark variant
   * Moved code-refactoring changes from 3.0 to 3.20 folder
   * Fixed menu background and hover colors
-  * Added missing dependency in yaru part yaml
+  * Added missing dependency in yarudave part yaml
   * Unify stackswitcher and buttonbox style
   * Reuse all buttonbox code for stackswitcher
   * Fixed missing hb button definition
@@ -2694,7 +2694,7 @@ yaru-theme (19.04) disco; urgency=medium
   * gtk/src/light/gtk-3.0: more changes driven by GTK warnings
   * gtk/src/light/gtk-3.0: attempt to fix up notebook tabs
   * gtk/src/light/gtk-3.0: apply menu styling
-  * gtk/src/light/gtk-3.0: update asset sheet with Yaru assets
+  * gtk/src/light/gtk-3.0: update asset sheet with Yarudave assets
   * gtk/src/light/gtk-3.0: use light assets on dark theme.
   * gtk/src/light/gtk-3.0: use padding on titlebuttons to simulate
     min-width/height
@@ -2704,7 +2704,7 @@ yaru-theme (19.04) disco; urgency=medium
   * gtk/src/light/gtk-3.0: fix headerbar stack switcher underline, and
     scale slider width
   * gtk/src/light/gtk-3.20: Fix up some comments in meson build configuration
-  * gtk/src/light/gtk-3.0: port switches to Yaru look
+  * gtk/src/light/gtk-3.0: port switches to Yarudave look
   * gtk/src/light/gtk-3.0: tweak hyperlink colours
   * gtk/src/light/gtk-3.0: remove unused assets
   * gtk/src/dark/gtk-3.0: support both versions of dark GTK 3 theme
@@ -2728,7 +2728,7 @@ yaru-theme (19.04) disco; urgency=medium
 
  -- Carlo Lobrano <c.lobrano@gmail.com>  Thu, 10 Jan 2019 11:26:55 +0100
 
-yaru-theme (18.10.7) cosmic; urgency=medium
+yarudave-theme (18.10.7) cosmic; urgency=medium
 
   [ feichtmeier ]
   * Minor enhancement:
@@ -2744,7 +2744,7 @@ yaru-theme (18.10.7) cosmic; urgency=medium
 
  -- Didier Roche <didrocks@ubuntu.com>  Mon, 22 Oct 2018 15:57:23 +0200
 
-yaru-theme (18.10.6) cosmic; urgency=medium
+yarudave-theme (18.10.6) cosmic; urgency=medium
 
   [ feichtmeier ]
   * Symlink system-monitor-app -> gnome-system-monitor
@@ -2770,7 +2770,7 @@ yaru-theme (18.10.6) cosmic; urgency=medium
 
  -- Didier Roche <didrocks@ubuntu.com>  Wed, 10 Oct 2018 10:05:57 +0200
 
-yaru-theme (18.10.5) cosmic; urgency=medium
+yarudave-theme (18.10.5) cosmic; urgency=medium
 
   [ Jeremy Bicha ]
   * debian/gbp.conf: Enable multimaint-merge
@@ -2785,7 +2785,7 @@ yaru-theme (18.10.5) cosmic; urgency=medium
 
   [ Didier Roche ]
   * Build gtk-common-themes using bionic docker image
-  * Ensure we pick correct Yaru version when building g-c-t
+  * Ensure we pick correct Yarudave version when building g-c-t
   * Clean snapcraft.yaml sync for g-t-c
   * Add some debug to ensure we pick the correct branch
   * Remove debug in build script.
@@ -2814,7 +2814,7 @@ yaru-theme (18.10.5) cosmic; urgency=medium
 
  -- Didier Roche <didrocks@ubuntu.com>  Mon, 01 Oct 2018 14:11:06 +0200
 
-yaru-theme (18.10.4) cosmic; urgency=medium
+yarudave-theme (18.10.4) cosmic; urgency=medium
 
   [ feichtmeier ]
   * Darken vbox and hbox separators a little
@@ -2864,8 +2864,8 @@ yaru-theme (18.10.4) cosmic; urgency=medium
   * Update _common.scss
 
   [ Olivier Tilloy ]
-  * Include Yaru in the custom gtk-common-themes snap built by CI jobs.
-  * Remove unused Yaru artefacts in the gtk-common-themes snap built by CI.
+  * Include Yarudave in the custom gtk-common-themes snap built by CI jobs.
+  * Remove unused Yarudave artefacts in the gtk-common-themes snap built by CI.
   * Future-proof the removal of assets.
 
   [ Didier Roche ]
@@ -2882,7 +2882,7 @@ yaru-theme (18.10.4) cosmic; urgency=medium
 
  -- Didier Roche <didrocks@ubuntu.com>  Wed, 12 Sep 2018 17:02:47 +0200
 
-yaru-theme (18.10.3) cosmic; urgency=medium
+yarudave-theme (18.10.3) cosmic; urgency=medium
 
   [ Carlo Lobrano ]
   * Made message dialog all white
@@ -2956,7 +2956,7 @@ yaru-theme (18.10.3) cosmic; urgency=medium
 
  -- Didier Roche <didrocks@ubuntu.com>  Wed, 05 Sep 2018 17:28:14 +0200
 
-yaru-theme (18.10.2) cosmic; urgency=medium
+yarudave-theme (18.10.2) cosmic; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * New upstream release r17
@@ -3027,11 +3027,11 @@ yaru-theme (18.10.2) cosmic; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 17 Aug 2018 18:00:13 +0200
 
-yaru-theme (18.10.1) cosmic; urgency=medium
+yarudave-theme (18.10.1) cosmic; urgency=medium
 
   [ Didier Roche ]
-  * debian/yaru-theme-gnome-shell.postinst:
-    - bump priority for Yaru gdm css to 15, higher than current ubuntu
+  * debian/yarudave-theme-gnome-shell.postinst:
+    - bump priority for Yarudave gdm css to 15, higher than current ubuntu
       unthemed default. (LP: #1783571)
 
   [ Marco Trevisan (Treviño) ]
@@ -3041,7 +3041,7 @@ yaru-theme (18.10.1) cosmic; urgency=medium
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 01 Aug 2018 16:32:46 +0200
 
-yaru-theme (18.10) cosmic; urgency=medium
+yarudave-theme (18.10) cosmic; urgency=medium
 
   * Initial packaging
 

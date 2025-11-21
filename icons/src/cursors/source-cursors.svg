@@ -23,7 +23,7 @@
   <style
      id="style4475" />
   <title
-     id="title5680">Yaru Cursors</title>
+     id="title5680">Yarudave Cursors</title>
   <defs
      id="defs4">
     <rect
@@ -6346,7 +6346,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Yaru Cursors</dc:title>
+        <dc:title>Yarudave Cursors</dc:title>
         <dc:creator>
           <cc:Agent>
             <dc:title>Sam Hewitt</dc:title>
@@ -6354,7 +6354,7 @@
         </dc:creator>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <dc:source>https://github.com/ubuntu/yaru</dc:source>
+        <dc:source>https://github.com/ubuntu/yarudave</dc:source>
         <dc:subject>
           <rdf:Bag>
             <rdf:li>simple</rdf:li>
@@ -6366,7 +6366,7 @@
             <rdf:li>xcursor</rdf:li>
           </rdf:Bag>
         </dc:subject>
-        <dc:description>The Yaru cursor theme</dc:description>
+        <dc:description>The Yarudave cursor theme</dc:description>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -16680,6 +16680,6 @@
          id="tspan5471"
          x="16.3335"
          y="-335"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';text-align:start;text-anchor:start">Yaru Cursors</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';text-align:start;text-anchor:start">Yarudave Cursors</tspan></text>
   </g>
 </svg>

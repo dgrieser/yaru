@@ -1,0 +1,9 @@
+usr/share/*gtksourceview-*/styles/Yarudave*.xml
+usr/share/themes/Yarudave/gtk-*/
+usr/share/themes/Yarudave/metacity-1
+usr/share/themes/Yarudave/xfwm4
+usr/share/themes/Yarudave/index.theme
+usr/share/themes/Yarudave-*/gtk-*/
+usr/share/themes/Yarudave-*/metacity-1
+usr/share/themes/Yarudave-*/xfwm4
+usr/share/themes/Yarudave-*/index.theme

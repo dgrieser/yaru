@@ -60,7 +60,7 @@ foreach flavour: icon_flavors
   if (is_accent or is_dark_accent) or get_option(flavour)
     is_flavour = flavour != 'default'
     suffix = is_flavour ? '-@0@'.format(flavour) : ''
-    icon_dir = 'Yaru' + suffix
+    icon_dir = 'Yarudave' + suffix
     theme_name = meson.project_name() + suffix
     theme_install_dir = join_paths(get_option('prefix'), 'share/icons', theme_name)
 
@@ -84,7 +84,7 @@ foreach flavour: icon_flavors
     endif
 
     if is_accent
-      colors_definitions = gtk_yaru_colors_defs['@0@-gtk-@1@'.format(
+      colors_definitions = gtk_yarudave_colors_defs['@0@-gtk-@1@'.format(
         icon_dir, accent_color_gtk_version_reference)]
 
       foreach accent_svg: source_svgs

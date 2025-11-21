@@ -7,7 +7,7 @@ need to have sassc installed).
 
 ## How to tweak the theme
 
-Yaru is a complex theme, so to keep it maintainable it's written and
+Yarudave is a complex theme, so to keep it maintainable it's written and
 processed in SASS, the generated CSS is then transformed into a gresource
 file during gtk build and used at runtime in a non-legible or editable form.
 

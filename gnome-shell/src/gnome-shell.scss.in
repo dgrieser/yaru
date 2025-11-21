@@ -1,5 +1,5 @@
 $variant: if(@DarkVariant@, 'dark', 'light');
-$yaru_variant: '@YaruVariant@';
+$yarudave_variant: '@YarudaveVariant@';
 $use_gresource: @UseGResource@;
 $is_highcontrast: @HighContrast@;
 $UPSTREAM_VARIANTS: ['dark', 'light'];
@@ -29,13 +29,13 @@ $contrast: if($is_highcontrast, 'high', 'normal');
     }
 
     @if is-asset-colorable($asset) {
-        $url: $path + str-insert($asset, '-' + $yaru_variant, str-index($asset, $extension));
+        $url: $path + str-insert($asset, '-' + $yarudave_variant, str-index($asset, $extension));
     }
 
     @return $url;
 }
 
-@function yaru_url_handler($arg) {
+@function yarudave_url_handler($arg) {
     $url: unquote($arg);
 
     @if not $use_gresource {
@@ -54,12 +54,12 @@ $contrast: if($is_highcontrast, 'high', 'normal');
     @return url(quote($url));
 }
 
-@if not list-index(["dark", "light"], $yaru_variant) and
+@if not list-index(["dark", "light"], $yarudave_variant) and
     not variable-exists("accent_bg_color") {
     @error "Missing definition for accent color variable: $accent_bg_color";
 }
 
-@debug 'Generating GNOME Shell ' + $yaru_variant + ' theme (' + $variant +' variant, hc: '+ $is_highcontrast+')';
+@debug 'Generating GNOME Shell ' + $yarudave_variant + ' theme (' + $variant +' variant, hc: '+ $is_highcontrast+')';
 
 @import "gnome-shell-sass/_@Colors@";
 @import "gnome-shell-sass/_drawing";

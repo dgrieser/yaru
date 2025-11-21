@@ -2298,7 +2298,7 @@
        inkscape:label="#g5493"
        transform="translate(-12,-42)"
        style="fill:#8b2782;fill-opacity:1;stroke:#8b2782;stroke-opacity:1"
-       inkscape:export-filename="/home/jupiter007/yaru/gtk/src/dark/gtk-2.0/assets/progressbar-horz.png"
+       inkscape:export-filename="/home/jupiter007/yarudave/gtk/src/dark/gtk-2.0/assets/progressbar-horz.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <g
@@ -2328,7 +2328,7 @@
        inkscape:label="#g5502"
        transform="translate(-12,-46)"
        style="fill:#8b2782;fill-opacity:1;stroke:#8b2782;stroke-opacity:1"
-       inkscape:export-filename="/home/jupiter007/yaru/gtk/src/dark/gtk-2.0/assets/progressbar-vert.png"
+       inkscape:export-filename="/home/jupiter007/yarudave/gtk/src/dark/gtk-2.0/assets/progressbar-vert.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <g
@@ -2401,7 +2401,7 @@
        inkscape:label="#g5227"
        id="scale-slider-hover"
        transform="translate(-11,230)"
-       inkscape:export-filename="/home/jupiter007/yaru/gtk/src/dark/gtk-2.0/assets/scale-slider-hover.png"
+       inkscape:export-filename="/home/jupiter007/yarudave/gtk/src/dark/gtk-2.0/assets/scale-slider-hover.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
@@ -2438,7 +2438,7 @@
        transform="translate(19,230)"
        id="scale-slider-active"
        inkscape:label="#g5227"
-       inkscape:export-filename="/home/jupiter007/yaru/gtk/src/dark/gtk-2.0/assets/scale-slider-active.png"
+       inkscape:export-filename="/home/jupiter007/yarudave/gtk/src/dark/gtk-2.0/assets/scale-slider-active.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
@@ -2475,7 +2475,7 @@
        inkscape:label="#g5227"
        id="scale-slider-insensitive"
        transform="translate(49,230)"
-       inkscape:export-filename="/home/jupiter007/yaru/gtk/src/dark/gtk-2.0/assets/scale-slider-insensitive.png"
+       inkscape:export-filename="/home/jupiter007/yarudave/gtk/src/dark/gtk-2.0/assets/scale-slider-insensitive.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
@@ -2576,7 +2576,7 @@
        id="scale-vert-trough-active"
        inkscape:label="#g5131"
        transform="translate(-181.5,175.5)"
-       inkscape:export-filename="/home/jupiter007/yaru/gtk/src/dark/gtk-2.0/assets/scale-vert-trough-active.png"
+       inkscape:export-filename="/home/jupiter007/yarudave/gtk/src/dark/gtk-2.0/assets/scale-vert-trough-active.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect

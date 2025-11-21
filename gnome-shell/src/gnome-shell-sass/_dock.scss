@@ -458,7 +458,7 @@ $dock_style_modes: [null, shrink, extended, extended-shrink];
     }
 }
 
-/* Yaru Dock styling */
+/* Yarudave Dock styling */
 
 $dock_color: $panel_bg_color;
 
@@ -495,7 +495,7 @@ $dock_color: $panel_bg_color;
             &.dashtodock #dash,
             &.shrink #dash {
                 .dash-background {
-                    // Yaru: remove the border we apply to the upstream dock
+                    // Yarudave: remove the border we apply to the upstream dock
                     border: none;
                 }
             }
@@ -552,8 +552,8 @@ $dock_color: $panel_bg_color;
                 // manually position the dot within the dash item
                 margin-bottom: $dash_padding + $dash_edge_offset - 3px; // 3px = size of dot (5px) subtracted from its translationY from appDisplay.js
 
-                // margin-bottom: 13px; // hardcoded - Yaru change: move dot a bit down
-                background-color: $selected_bg_color; // Yaru: we want an accented dot
+                // margin-bottom: 13px; // hardcoded - Yarudave change: move dot a bit down
+                background-color: $selected_bg_color; // Yarudave: we want an accented dot
             }
         }
     }

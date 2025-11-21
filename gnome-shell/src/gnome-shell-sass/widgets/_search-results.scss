@@ -29,7 +29,7 @@
   padding: $base_padding * 2;
   margin:0 $base_margin * 3;
   border: 2px solid transparent;
-  border: 1px solid $system_borders_color; // Yaru: use same border-color as dash
+  border: 1px solid $system_borders_color; // Yarudave: use same border-color as dash
 
   @if $contrast == 'high' {
     border-color: $hc_inset_color;

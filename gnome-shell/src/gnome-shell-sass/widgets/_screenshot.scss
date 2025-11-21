@@ -4,7 +4,7 @@ $screenshot_ui_panel_padding: $base_padding * 3;
 $screenshot_ui_panel_border_radius: $modal_radius * 2;
 // $screenshot_ui_button_red: $red_4;
 
-$screenshot_ui_button_red: $red; // Yaru: Use our palette's color
+$screenshot_ui_button_red: $red; // Yarudave: Use our palette's color
 
 .screenshot-ui-panel {
   @extend %osd_panel;
@@ -202,5 +202,5 @@ $screenshot_ui_button_red: $red; // Yaru: Use our palette's color
   @extend %tooltip;
   text-align: center;
   -y-offset: $base_margin * 6;
-  border: 1px solid $system_borders_color; // Yaru change: add border
+  border: 1px solid $system_borders_color; // Yarudave change: add border
 }

@@ -134,9 +134,9 @@ $_default_button_c: lighten($bg_color,2%);
     color: $tc;
     outline-color: if($c != $_default_button_c, $alt_focus_border_color, $focus_border_color);
     border-color: if($c!=$_default_button_c, _border_color($c, true), $borders_color); //tint if not default button color
-    // Yaru change: we don't want to use gradients on buttons
+    // Yarudave change: we don't want to use gradients on buttons
     background-image: if($variant == 'light', image(lighten($c, 2%)), image(lighten($c, 4%)));
-    @include _shadows(none); // Yaru change: drop shadow
+    @include _shadows(none); // Yarudave change: drop shadow
   }
 
   @else if $t==hover {
@@ -153,8 +153,8 @@ $_default_button_c: lighten($bg_color,2%);
       background-image: linear-gradient(to top, darken($c,4%) 20%, darken($c, 3%) 90%);
       @include _shadows($_button_shadow);
     }
-    box-shadow: none; // Yaru change: remove shadow
-    background-image: if($variant == 'light', image(darken($c, 2%)), image(lighten($c, 6%))); // Yaru change: darker bg on hover on light theme
+    box-shadow: none; // Yarudave change: remove shadow
+    background-image: if($variant == 'light', image(darken($c, 2%)), image(lighten($c, 6%))); // Yarudave change: darker bg on hover on light theme
   }
 
   @else if $t==active {
@@ -242,7 +242,7 @@ $_default_button_c: lighten($bg_color,2%);
   // backdrop insensitive button
   //
 
-    $_bg: if($c != $_default_button_c, mix($c, $base_color, 85%), if($variant=='light', $insensitive_bg_color, lighten($insensitive_bg_color, 3%))); // Yaru change: lighten bg color in light theme
+    $_bg: if($c != $_default_button_c, mix($c, $base_color, 85%), if($variant=='light', $insensitive_bg_color, lighten($insensitive_bg_color, 3%))); // Yarudave change: lighten bg color in light theme
     $_bc: if($variant == 'light', $_bg,_border_color($c));
 
     color: if($c != $_default_button_c, mix($tc, $_bg, 35%), $backdrop_insensitive_color);
@@ -269,7 +269,7 @@ $_default_button_c: lighten($bg_color,2%);
   //
   // normal osd button
   //
-    $_bg: if($c != $_default_button_c, transparentize($c, 0.5), lighten($osd_bg_color, 9%)); // Yaru change: make osd buttons visible
+    $_bg: if($c != $_default_button_c, transparentize($c, 0.5), lighten($osd_bg_color, 9%)); // Yarudave change: make osd buttons visible
 
     color: $osd_fg_color;
     outline-color: if($c != $_default_button_c, $alt_focus_border_color, $focus_border_color);
@@ -283,7 +283,7 @@ $_default_button_c: lighten($bg_color,2%);
   //
   // active osd button
   //
-    $_bg: if($c != $_default_button_c, transparentize($c, 0.3), lighten($osd_bg_color, 12%)); // Yaru change: make osd buttons visible
+    $_bg: if($c != $_default_button_c, transparentize($c, 0.3), lighten($osd_bg_color, 12%)); // Yarudave change: make osd buttons visible
 
     color: white;
     border-color: $osd_borders_color;
@@ -296,7 +296,7 @@ $_default_button_c: lighten($bg_color,2%);
   //
   // active osd button
   //
-    $_bg: if($c != $_default_button_c, $c, $osd_borders_color); // Yaru change: make osd buttons visible
+    $_bg: if($c != $_default_button_c, $c, $osd_borders_color); // Yarudave change: make osd buttons visible
 
     color: white;
     border-color: $osd_borders_color;
@@ -369,9 +369,9 @@ $_default_button_c: lighten($bg_color,2%);
 // $c:  base color
 // $ov: a background layer for background shorthand (hence no commas!)
 //
-  $gradient: linear-gradient(to top, darken($c, 0%), lighten($c, 0%)); // Yaru change: no gradients
+  $gradient: linear-gradient(to top, darken($c, 0%), lighten($c, 0%)); // Yarudave change: no gradients
 
-  @if $variant == 'dark' { $gradient: linear-gradient(to top, lighten($c, 6%), lighten($c, 6%)); } // Yaru change: no gradients
+  @if $variant == 'dark' { $gradient: linear-gradient(to top, lighten($c, 6%), lighten($c, 6%)); } // Yarudave change: no gradients
 
   @if $ov != none { background: $c $ov, $gradient; }
   @else { background: $c $gradient; }
@@ -455,23 +455,23 @@ $_default_button_c: lighten($bg_color,2%);
   // possible $t values:
   // normal, hover, active, insensitive, backdrop, backdrop-insensitive, menu
 
-  $_border_color: if($c==$checkradio_bg_color, $c, $alt_borders_color); // Yaru change: use background as border when checked
+  $_border_color: if($c==$checkradio_bg_color, $c, $alt_borders_color); // Yarudave change: use background as border when checked
   $_dim_border_color: transparentize($_border_color, if($variant == 'light', 0.3, 0.7));
 
   @if $t==normal  {
     background-clip: if($checked, border-box, padding-box);
-    background-image: image(lighten($c, if($variant=='dark', if($c==$checkradio_bg_color, 0%, 5%), 0%))); // Yaru change: no gradients
+    background-image: image(lighten($c, if($variant=='dark', if($c==$checkradio_bg_color, 0%, 5%), 0%))); // Yarudave change: no gradients
     border-color: $_border_color;
     box-shadow: 0 1px transparentize(black, 0.95);
     color: $tc;
   }
 
-  @if $t==hover { // Yaru change: no gradients, better borders
-    background-image: image(if($c==$checkradio_bg_color, lighten($c, 7%), if($variant=='light', darken($c, 4%), lighten($c, 7%)))); // Yaru change: no gradients
+  @if $t==hover { // Yarudave change: no gradients, better borders
+    background-image: image(if($c==$checkradio_bg_color, lighten($c, 7%), if($variant=='light', darken($c, 4%), lighten($c, 7%)))); // Yarudave change: no gradients
     border-color: if($c == $checkradio_bg_color, lighten($c, 7%), $alt_borders_color);
   }
 
-  @if $t==active { // Yaru change: no gradients, no inset shadow
+  @if $t==active { // Yarudave change: no gradients, no inset shadow
     box-shadow: none;
     background-image: image(if($c==white, $_border_color, darken($c, 7%)));
     border-color: if($c==$checkradio_bg_color, darken($c, 7%), $_border_color);
@@ -479,7 +479,7 @@ $_default_button_c: lighten($bg_color,2%);
 
   @if $t==insensitive {
     box-shadow: none;
-    color: $insensitive_fg_color; // Yaru change: use correct fg color
+    color: $insensitive_fg_color; // Yarudave change: use correct fg color
     border-color: $insensitive_borders_color;
     background-image: image($insensitive_bg_color);
   }

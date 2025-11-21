@@ -1,4 +1,4 @@
-Yaru Icons & Cursors
+Yarudave Icons & Cursors
 ====================
 
 This project is a revitalization of the Suru icon set that was designed for Ubuntu Touch. The principles and styles created for Suru now serve as the basis for a new FreeDesktop icon theme.
@@ -7,13 +7,13 @@ This project is a revitalization of the Suru icon set that was designed for Ubun
 
 This project has mixed licensing. You are free to copy, redistribute and/or modify aspects of this work under the terms of each licence accordingly (unless otherwise specified).
 
-The Yaru icon assets (any and all source `.svg` files or rendered `.png` files) are licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+The Yarudave icon assets (any and all source `.svg` files or rendered `.png` files) are licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Included scripts are free software licensed under the terms of the [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt).
 
 ## Installing & Using
 
-You can build and install Yaru from source using Meson.
+You can build and install Yarudave from source using Meson.
 
 ```bash
 # build
@@ -24,18 +24,18 @@ sudo ninja -C "build" install
 
 By default it installs to `/usr/` but you can specify a different directory with a prefix like: `/usr/local` or `$HOME/.local`.
 
-After which you should be able to pick Yaru as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
+After which you should be able to pick Yarudave as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
 
 ```bash
 # set the icon theme
-gsettings set org.gnome.desktop.interface icon-theme "Yaru"
+gsettings set org.gnome.desktop.interface icon-theme "Yarudave"
 # or the cursor theme
-gsettings set org.gnome.desktop.interface cursor-theme "Yaru"
+gsettings set org.gnome.desktop.interface cursor-theme "Yarudave"
 ```
 
-### Uninstalling Yaru
+### Uninstalling Yarudave
 
-To uninstall Yaru, simply run the following. (If you installed it without superuser privileges just omit the  `sudo`.)
+To uninstall Yarudave, simply run the following. (If you installed it without superuser privileges just omit the  `sudo`.)
 
 ```bash
 sudo ninja -C "build" uninstall
@@ -80,7 +80,7 @@ ninja -C _build -v icon-render-application-x-cd-image
 ## Generating accent color icons
 
 Assets must be provided in the fullcolor `accented` subfolder, using colors that can be replaced via `colorize-dummy-svg.py`
-(that generates the colors from gtk themes using `yaru-colors-defs.scss·`)
+(that generates the colors from gtk themes using `yarudave-colors-defs.scss·`)
 
 To generate the icons you need to use meson:
 

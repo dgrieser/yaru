@@ -4,7 +4,7 @@
 // $privacy_indicator_color: if($variant == 'light', $orange_4, $orange_3);
 // $recording_indicator_color: $red_4;
 
-// Yaru: Use our palette
+// Yarudave: Use our palette
 $privacy_indicator_color: if($variant =='light', $orange, $yellow);
 $recording_indicator_color: $red;
 
@@ -105,7 +105,7 @@ $panel_transition_duration: 250ms; // same as the overview transition duration
   &:overview,
   &.unlock-screen,
   &.login-screen {
-    // Yaru change: static background into overview
+    // Yarudave change: static background into overview
     // background-color: transparent;
 
     // unfortunate duplication to keep indicator style in these states
@@ -123,7 +123,7 @@ $panel_transition_duration: 250ms; // same as the overview transition duration
   // use transparent text styles for lock & login screen panels
   &.unlock-screen,
   &.login-screen {
-    // Yaru change: static background into overview
+    // Yarudave change: static background into overview
     background-color: transparent;
     .panel-button {
       @include panel_button($fg:$transparent_panel_fg_color);

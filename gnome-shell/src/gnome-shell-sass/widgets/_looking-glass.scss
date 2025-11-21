@@ -81,11 +81,11 @@
 }
 
 .lg-obj-inspector-button {
-  // border: 1px solid $borders_color; // Yaru change: fix button look
+  // border: 1px solid $borders_color; // Yarudave change: fix button look
   padding: 4px;
   border-radius: $base_border_radius;
-  // &:hover { border: 1px solid $fg_color; } // Yaru change: fix button look
-  // Yaru change: fix button look
+  // &:hover { border: 1px solid $fg_color; } // Yarudave change: fix button look
+  // Yarudave change: fix button look
   @include button(normal);
   &:hover { @include button(hover); }
 }
@@ -116,7 +116,7 @@
   border: 1px solid $borders_color;
   border-radius: $base_border_radius;
   padding: $base_padding;
-  // color: $fg_color; // Yaru change: fix for the light theme
+  // color: $fg_color; // Yarudave change: fix for the light theme
 }
 
 .lg-debug-flag-button {

@@ -21,7 +21,7 @@
    style="display:inline;enable-background:new"
    inkscape:export-filename="C:\Users\sblav\Pictures\preferences-system-network.png">
   <title
-     id="title3004">Yaru Icon Theme Template</title>
+     id="title3004">Yarudave Icon Theme Template</title>
   <sodipodi:namedview
      stroke="#ef2929"
      fill="#f57900"
@@ -345,13 +345,13 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:creator>
           <cc:Agent>
-            <dc:title>Yaru Team, based on the Suru template by Sam Hewitt and original Suru designs by Matthieu James</dc:title>
+            <dc:title>Yarudave Team, based on the Suru template by Sam Hewitt and original Suru designs by Matthieu James</dc:title>
           </cc:Agent>
         </dc:creator>
         <dc:source />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <dc:title>Yaru Icon Theme Template</dc:title>
+        <dc:title>Yarudave Icon Theme Template</dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>

@@ -45,7 +45,7 @@ DOCOPT
 # INKSCAPE = 'flatpak run org.inkscape.Inkscape'
 INKSCAPE = 'inkscape'
 SRCS = ["./source-symbolic.svg"]
-PREFIX = "../../Yaru/scalable"
+PREFIX = "../../Yarudave/scalable"
 
 # install with `sudo npm install -g svgo`
 SVGO = 'svgo'

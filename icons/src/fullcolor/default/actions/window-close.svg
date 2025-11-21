@@ -280,7 +280,7 @@
          x="24"
          y="28"
          inkscape:label="48x48"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/256x256/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/256x256/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -307,7 +307,7 @@
          y="-264"
          rx="112"
          ry="112"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/256x256/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/256x256/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -320,7 +320,7 @@
          id="rect939"
          style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;filter:url(#filter945);enable-background:new"
          transform="matrix(0,-1,-1,0,0,0)"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/256x256/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/256x256/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -333,7 +333,7 @@
          y="-264"
          rx="112"
          ry="112"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/256x256/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/256x256/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -346,7 +346,7 @@
          y="-328"
          rx="1"
          ry="1"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/8x8/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/8x8/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <path
@@ -354,7 +354,7 @@
          id="path3689"
          style="color:#000000;fill:#c7162b;stroke-width:1.49999845;stroke-dashoffset:0.80000001"
          d="m 328.00001,236.00001 c -4.40939,0 -7.99999,3.59059 -7.99999,7.99999 0,4.40939 3.5906,7.99999 7.99999,7.99999 4.4094,0 7.99999,-3.5906 7.99999,-7.99999 0,-4.4094 -3.59059,-7.99999 -7.99999,-7.99999 z"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/16x16/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/16x16/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -364,7 +364,7 @@
          width="15.999983"
          y="236"
          x="320.00003"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/16x16/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/16x16/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <path
@@ -372,7 +372,7 @@
          id="path3689-1"
          style="color:#000000;fill:#c7162b;stroke-width:3;stroke-dashoffset:0.80000001"
          d="m 336,132 c -8.8188,0 -16,7.1812 -16,16 0,8.8188 7.1812,16 16,16 8.8188,0 16,-7.1812 16,-16 0,-8.8188 -7.1812,-16 -16,-16 z"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/32x32/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/32x32/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -382,7 +382,7 @@
          width="32"
          y="132"
          x="320"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/32x32/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/32x32/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <path
@@ -390,7 +390,7 @@
          id="path3689-7"
          style="color:#000000;fill:#c7162b;stroke-width:21;stroke-dashoffset:0.80000001"
          d="M 152,44 C 90.2684,44 40,94.2684 40,156 40,217.7316 90.2684,268 152,268 213.7316,268 264,217.7316 264,156 264,94.2684 213.7316,44 152,44 Z"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/256x256/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/256x256/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -400,7 +400,7 @@
          width="224"
          y="44.000008"
          x="40"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/256x256/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/256x256/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <path
@@ -408,7 +408,7 @@
          id="path3689-6"
          style="display:inline;enable-background:new;color:#000000;fill:#c7162b;stroke-width:4.5;stroke-dashoffset:0.80000001"
          d="m 344,60 c -13.2282,0 -24,10.7718 -24,24 0,13.2282 10.7718,24 24,24 13.2282,0 24,-10.7718 24,-24 0,-13.2282 -10.7718,-24 -24,-24 z"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/48x48/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/48x48/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <path
@@ -416,7 +416,7 @@
          id="path3689-5"
          style="display:inline;enable-background:new;color:#000000;fill:#c7162b;stroke-width:2.25;stroke-dashoffset:0.80000001"
          d="m 332,188 c -6.6141,0 -12,5.3859 -12,12 0,6.6141 5.3859,12 12,12 6.6141,0 12,-5.3859 12,-12 0,-6.6141 -5.3859,-12 -12,-12 z"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/24x24/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/24x24/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
     </g>
@@ -433,7 +433,7 @@
          width="8"
          id="rect1086"
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:3.99920917;marker:none;enable-background:accumulate"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/8x8/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/8x8/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <path
@@ -442,7 +442,7 @@
          d="m 326.25,269.75 -4.5,4.5"
          id="path1088"
          inkscape:connector-curvature="0"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/8x8/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/8x8/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <path
@@ -451,7 +451,7 @@
          id="path1090"
          d="m 321.75,269.75 4.5,4.5"
          style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/8x8/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/8x8/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <rect
@@ -461,12 +461,12 @@
          width="24"
          y="188"
          x="320"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/24x24/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/24x24/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <g
          id="g6651"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/24x24/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/24x24/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96">
         <g
@@ -490,12 +490,12 @@
          width="48"
          y="60"
          x="320"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/48x48/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/48x48/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <g
          id="g6637"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/256x256/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/256x256/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96">
         <path
@@ -511,7 +511,7 @@
       </g>
       <g
          id="g6660"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/48x48/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/48x48/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96">
         <path
@@ -527,7 +527,7 @@
       </g>
       <g
          id="g6656"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/32x32/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/32x32/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96">
         <path
@@ -543,7 +543,7 @@
       </g>
       <g
          id="g6642"
-         inkscape:export-filename="/home/stuart/yaru/icons/Suru/16x16/actions/window-close.png"
+         inkscape:export-filename="/home/stuart/yarudave/icons/Suru/16x16/actions/window-close.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96">
         <path

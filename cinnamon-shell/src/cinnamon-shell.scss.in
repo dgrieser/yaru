@@ -1,9 +1,9 @@
 $variant: if(@DarkVariant@, 'dark', 'light');
-$yaru_variant: '@YaruVariant@';
+$yarudave_variant: '@YarudaveVariant@';
 
 @import 'sass-utils';
 
-@debug 'Generating Cinnamon Shell ' + $yaru_variant + ' theme (' + $variant + ' variant)';
+@debug 'Generating Cinnamon Shell ' + $yarudave_variant + ' theme (' + $variant + ' variant)';
 
 @import "@VariantDir@/_@Colors@";
 @import "@VariantDir@/_drawing";

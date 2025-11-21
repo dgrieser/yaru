@@ -21,7 +21,7 @@ $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
 $headerbar_bg_color: if($variant == 'light', lighten($bg_color, 5%), darken($bg_color, 3%));
 $menu_color: if($variant == 'light', $bg_color, lighten($jet, 2%));
-$menu_selected_color: if($variant =='light', darken($bg_color, 6%), lighten($bg_color, 6%)); // Yaru change: use lighter color in dark theme (mimic Libadwaita)
+$menu_selected_color: if($variant =='light', darken($bg_color, 6%), lighten($bg_color, 6%)); // Yarudave change: use lighter color in dark theme (mimic Libadwaita)
 
 $scrollbar_bg_color: if($variant == 'light', mix($bg_color, $fg_color, 80%), mix($base_color, $bg_color, 50%));
 $scrollbar_slider_color: mix($fg_color, $bg_color, 60%);
@@ -77,7 +77,7 @@ $focus_border_color: transparentize(lighten($accent_bg_color, 14%), 0.3);
 $alt_focus_border_color: if($variant == 'light', transparentize(white, 0.2), transparentize(white,0.7));
 $dim_label_opacity: 0.55;
 
-// Yaru: Optimize accent-color definition for default background colors
+// Yarudave: Optimize accent-color definition for default background colors
 @import 'sass-utils';
 $contrast_target: if($variant=='light', 6, 5.5);
 $link_color: optimize-contrast($bg_color, $accent_bg_color, $target: $contrast_target);
