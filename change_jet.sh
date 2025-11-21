@@ -4,7 +4,7 @@ APP="$(basename "${0}")"
 
 #jet_new="#2C3540"
 #jet_new="#292E34"
-jet_new="#262a2e"
+jet_new="#262A2E"
 
 grep -lr '$jet: #181818;' . | grep -v '^\./\.git'
 
