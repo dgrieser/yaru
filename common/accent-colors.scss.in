@@ -30,7 +30,7 @@
 }
 
 $yarudave_is_dark_variant: @yarudave_dark_variant@;
-$jet: #262A2E;
+$jet: #181818;
 $yarudave_bg_color: if($yarudave_is_dark_variant, #FAFAFA, lighten($jet, 8%));
 $yarudave_accent_bg_color: get_accent_color('@yarudave_accent_color@', $yarudave_is_dark_variant);
 
