@@ -29,9 +29,9 @@
       <stop
          id="stop3778-2"
          offset="0.078125"
-         style="stop-color:#171717;stop-opacity:1;" />
+         style="stop-color:#26292e;stop-opacity:1;" />
       <stop
-         style="stop-color:#171717;stop-opacity:1;"
+         style="stop-color:#26292e;stop-opacity:1;"
          offset="0.97355771"
          id="stop3774-0" />
       <stop
@@ -169,7 +169,7 @@
                  height="1.9999826"
                  width="5"
                  id="rect3977-39-90"
-                 style="fill:#2f2f2f;fill-opacity:1;stroke:none" />
+                 style="fill:#3b4147;fill-opacity:1;stroke:none" />
               <rect
                  ry="0"
                  y="1027.3622"
@@ -177,7 +177,7 @@
                  height="7.9999828"
                  width="2"
                  id="rect3979-7-60"
-                 style="fill:#2f2f2f;fill-opacity:1;stroke:none" />
+                 style="fill:#3b4147;fill-opacity:1;stroke:none" />
             </g>
             <rect
                style="fill:#eeeeee;fill-opacity:0;stroke:none"

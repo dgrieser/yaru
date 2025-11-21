@@ -59,7 +59,7 @@ stage {
   #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
     color: rgba(255, 255, 255, 0.32);
     background-color: #383838;
-    border-color: 1px solid #272727;
+    border-color: 1px solid #34393f;
     box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.05); }
   #menu-search-entry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning {
     icon-size: 16px;
@@ -218,7 +218,7 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   spacing: 4px;
   padding: 8px; }
 
@@ -309,7 +309,7 @@ StScrollBar {
 
 .popup-menu-boxpointer {
   -arrow-border-radius: 3px;
-  -arrow-background-color: #2f2f2f;
+  -arrow-background-color: #3b4147;
   -arrow-border-width: 1px;
   -arrow-border-color: #202020;
   -arrow-base: 21px;
@@ -834,7 +834,7 @@ StScrollBar {
   border-top-color: #35a854;
   border-top: 4px;
   border-radius: 5px;
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
@@ -879,7 +879,7 @@ StScrollBar {
 .switcher-list {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   border-radius: 3px;
   padding: 20px; }
   .switcher-list > StBoxLayout {
@@ -941,7 +941,7 @@ StScrollBar {
   background-color: white; }
 
 .modal-dialog {
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   border: 1px solid #202020;
   border-radius: 3px;
   padding: 5px 10px; }
@@ -952,7 +952,7 @@ StScrollBar {
     margin: 0px;
     padding: 10px;
     border: none;
-    background-color: #2f2f2f; }
+    background-color: #3b4147; }
     .modal-dialog-button-box .modal-dialog-button {
       padding-top: 0;
       padding-bottom: 0;
@@ -967,7 +967,7 @@ StScrollBar {
   padding: 10px 15px 10px 15px;
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f; }
+  background-color: #3b4147; }
   .run-dialog > * {
     padding: 0; }
   .run-dialog-label {
@@ -1214,7 +1214,7 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f; }
+  background-color: #3b4147; }
 
 .restart-osd {
   font-size: 1.6em; }
@@ -1228,7 +1228,7 @@ StScrollBar {
   spacing: 1em;
   padding: 20px;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   border: 1px solid #202020;
   border-radius: 5px; }
   .osd-window .osd-monitor-label {
@@ -1303,7 +1303,7 @@ StScrollBar {
   spacing: 6px;
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   border-radius: 3px;
   padding: 6px 12px 12px 12px;
   font-size: 1em; }
@@ -1374,7 +1374,7 @@ StScrollBar {
 .grouped-window-list-thumbnail-menu {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   border-radius: 3px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
@@ -1500,7 +1500,7 @@ StScrollBar {
   padding: 0;
   border: none;
   -slider-height: 0.5em;
-  -slider-background-color: #222222;
+  -slider-background-color: #2f3439;
   -slider-border-color: rgba(0, 0, 0, 0);
   -slider-active-background-color: #35a854;
   -slider-active-border-color: rgba(0, 0, 0, 0);
@@ -1669,7 +1669,7 @@ StScrollBar {
   .desklet-with-borders {
     border: 1px solid #202020;
     border-radius: 5px;
-    background-color: #2f2f2f;
+    background-color: #3b4147;
     color: rgba(255, 255, 255, 0.87);
     padding: 12px;
     padding-bottom: 16px; }
@@ -1679,7 +1679,7 @@ StScrollBar {
     border: 1px solid #202020;
     border-top-width: 0;
     border-radius: 0 0 5px 5px;
-    background-color: #2f2f2f;
+    background-color: #3b4147;
     color: rgba(255, 255, 255, 0.87);
     border-radius: 0;
     border-radius-topleft: 0;
@@ -1691,7 +1691,7 @@ StScrollBar {
   .desklet-header {
     border: 1px solid #202020;
     border-radius: 5px 5px 0 0;
-    background-color: #272727;
+    background-color: #34393f;
     color: rgba(255, 255, 255, 0.87);
     font-size: 1em;
     padding: 12px;
@@ -1703,7 +1703,7 @@ StScrollBar {
 .photoframe-box {
   border: 1px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f;
+  background-color: #3b4147;
   color: rgba(255, 255, 255, 0.87);
   padding: 12px;
   padding-bottom: 16px; }
